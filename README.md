@@ -10,6 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![](assets/slide2.png)
 ![](assets/slide3.png)
 ![](assets/slide4.png)
+![](assets/slide5.png)
+![](assets/slide6.png)
+![](assets/slide7.png)
+![](assets/slide8.png)
 
 ## Available Scripts
 

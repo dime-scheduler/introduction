@@ -1,7 +1,9 @@
+import bgImage from "../static/images/bg.png";
+
 export default function Start() {
     return (
         <section className="bg-purple aligncenter">
-            <span className="background dark" style={{ backgroundImage: `url('https://source.unsplash.com/C1HhAQrbykQ/')` }}></span>
+            <span className="background auto" style={{ backgroundImage: `url(${bgImage})` }}></span>
             <div className="wrap">
                 <h1 className="text-landing">Dime.Scheduler</h1>
                 <p className="text-symbols">Stop puzzling. Start planning.</p>

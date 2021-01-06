@@ -1,65 +1,43 @@
 export default function Start() {
+
+    const industries = [
+        { name: 'Field service', faIcon: 'fa-bar-chart' },
+        { name: 'Transportation', faIcon: 'fa-cog' },
+        { name: 'Accommodation & food', faIcon: 'fa-cog' },
+        { name: 'Utilities', faIcon: 'fa-cog' },
+        { name: 'Construction', faIcon: 'fa-cog' },
+        { name: 'Educational services', faIcon: 'fa-cog' },
+        { name: 'Manufacturing', faIcon: 'fa-cog' },
+        { name: 'Agriculture', faIcon: 'fa-cog' },
+        { name: 'Rental', faIcon: 'fa-cog' },
+        { name: 'Professional services', faIcon: 'fa-cog' },
+        { name: 'Health care', faIcon: 'fa-cog' },
+        { name: 'and many more', faIcon: 'fa-cog' }
+    ];
+
+    const industriesList = industries.map(({ name, faIcon }) => {
+        const linkHref = `#${faIcon}`;
+        return (
+            <li>
+                <h2>
+                    <svg class={faIcon}>
+                        <use xlinkHref={linkHref}></use>
+                    </svg>
+                    {name}
+                </h2>
+            </li >
+        );
+    });
+
     return (
         <section>
             <div class="wrap">
-                <h3>Key features</h3>
+                <h3>Industries</h3>
+                <p>Showcasing Dime.Scheduler's versatility</p>
                 <ul class="flexblock features">
-                    <li>
-                        <div>
-                            <h2>
-                                <span>&rarr;</span>
-                                Drag & drop planning
-                            </h2>
-                            ...
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                <svg class="fa-link">
-                                    <use xlinkHref="#fa-link"></use>
-                                </svg>
-                                Gantt chart project planning
-                            </h2>
-                        ...
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                <svg class="fa-clock-o">
-                                    <use xlinkHref="#fa-clock-o"></use>
-                                </svg>
-                                Integrated map
-                            </h2>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                
-                                Powerful resource filters                </h2>
-...              </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                <svg class="fa-text-height">
-                                    <use xlinkHref="#fa-text-height"></use>
-                                </svg>
-                                Capacity overview                </h2>
-...              </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                               
-                                Calendars
-                </h2>
-...              </div>
-                    </li>
-                </ul >
-            </div >
-        </section >
+                    {industriesList}
+                </ul>
+            </div>
+        </section>
     )
 }

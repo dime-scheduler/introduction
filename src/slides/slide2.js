@@ -1,9 +1,11 @@
+import bgImage from "../static/images/hello.jpg";
+
 export default function Start() {
     return (
-        <section>
+        <section className="bg-purple aligncenter">
+            <span className="background cover" style={{ backgroundImage: `url(${bgImage})` }}></span>
             <div className="wrap aligncenter">
-                <p className="text-subtitle">Stop puzzling. Start planning.</p>
-                <h2>Dime.Scheduler</h2>
+                <h1>What is Dime.Scheduler?</h1>
             </div>
         </section>
     )

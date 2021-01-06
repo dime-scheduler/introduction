@@ -15,6 +15,8 @@ import Slide5 from './slides/slide5';
 import Slide6 from './slides/slide6';
 import Slide7 from './slides/slide7';
 import Slide8 from './slides/slide8';
+import Slide9 from './slides/slide9';
+import Slide10 from './slides/slide10';
 
 export default class App extends Component {
   constructor() {
@@ -38,6 +40,8 @@ export default class App extends Component {
           <Slide5></Slide5>
           <Slide6></Slide6>
           <Slide7></Slide7>
+          <Slide9></Slide9>
+          <Slide10></Slide10>
           <Slide8></Slide8>
         </div>
       </div >

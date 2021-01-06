@@ -1,61 +1,39 @@
 export default function Start() {
+
+    const features = [
+        { name: 'Drag & drop planning', faIcon: 'fa-bar-chart' },
+        { name: 'Gantt chart project planning', faIcon: 'fa-square' },
+        { name: 'Integrated map', faIcon: 'fa-cog' },
+        { name: 'Powerful resource filters', faIcon: 'fa-cog' },
+        { name: 'Capacity overview', faIcon: 'fa-cog' },
+        { name: 'Calendars', faIcon: 'fa-cog' },
+        { name: 'Connect to Microsoft Exchange', faIcon: 'fa-cog' },
+        { name: 'and many more', faIcon: 'fa-cog' },
+    ];
+
+    const featuresList = features.map(({ name, faIcon }) => {
+        const linkHref = `#${faIcon}`;
+        return (
+            <li>
+                <svg class={faIcon}>
+                    <use xlinkHref={linkHref}></use>
+                </svg>
+                <h2>{name}</h2>
+                Multipurpose: services, features, specs...
+            </li>
+        );
+    });
+
     return (
         <section>
             <div class="wrap">
-                <h3>Industries</h3>
-                <ul class="flexblock features">
-                    <li>
-                        <div>
-                            <h2>
-                                <span>&rarr;</span>
-                                Field service
-                            </h2>
-                            ...
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                <svg class="fa-link">
-                                    <use xlinkHref="#fa-link"></use>
-                                </svg>
-Transportation                            </h2>
-                        ...
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                <svg class="fa-clock-o">
-                                    <use xlinkHref="#fa-clock-o"></use>
-                                </svg>
-Accommodation & food                            </h2>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                
-                               Utilities                </h2>
-...              </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                                <svg class="fa-text-height">
-                                    <use xlinkHref="#fa-text-height"></use>
-                                </svg>
-                                Capacity overview                </h2>
-...              </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h2>
-                               
-                                Calendars
-                </h2>
-...              </div>
-                    </li>
+                <div class="content-center">
+                    <h2 class="text-landing">Key features</h2>
+                    <p>Among many others, here is a selection of key features:</p>
+                </div>
+
+                <ul class="flexblock">
+                    {featuresList}
                 </ul >
             </div >
         </section >
