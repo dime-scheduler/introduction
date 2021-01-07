@@ -7,20 +7,27 @@ import './static/css/svg-icons.css';
 import './static/js/webslides';
 import './static/js/svg-icons';
 
-import Slide1 from './slides/slide1';
-import Slide2 from './slides/slide2';
-import Slide3 from './slides/slide3';
-import Slide4 from './slides/slide4';
-import Slide5 from './slides/slide5';
-import Slide6 from './slides/slide6';
-import Slide7 from './slides/slide7';
-import Slide8 from './slides/slide8';
-import Slide9 from './slides/slide9';
-import Slide10 from './slides/slide10';
-import Slide11 from './slides/slide11';
-import Slide12 from './slides/slide12';
-import Slide13 from './slides/slide13';
+import Introduction from './slides/intro';
+import WhatIsDimeScheduler from './slides/whatisdimescheduler';
+import ThePlanningSolution from './slides/planningsolution';
+import WhyCentralizedPlanning from './slides/whycentralizedplanning';
+import Properties from './slides/properties';
+import Industries from './slides/industries';
+import Features from './slides/features';
+import Reseller from './slides/reseller';
+import Stats from './slides/stats';
+import UseDimeScheduler from './slides/use';
+import SeamlessIntegration from './slides/seamlessintegration';
+import LearnMore from './slides/learnmore';
+import FlexibleAndVersatile from './slides/flexible';
+import TableOfContents from './slides/toc';
+import Contact from './slides/contact';
 
+import Reason1 from './slides/centralized-reason-1';
+import Reason2 from './slides/centralized-reason-2';
+import Reason3 from './slides/centralized-reason-3';
+import Reason4 from './slides/centralized-reason-4';
+import Reason5 from './slides/centralized-reason-5';
 import ds from "./static/images/ds-light.png";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -62,24 +69,26 @@ export default class App extends Component {
 
         <main role="main">
           <div id='webslides'>
-            <Slide1></Slide1>
-            <Slide2></Slide2>
-            <Slide3></Slide3>
-            <Slide11></Slide11>
-
-            <Slide13></Slide13>
-
-            <Slide4></Slide4>
-
-            <Slide5></Slide5>
-
-            <Slide6></Slide6>
-            <Slide7></Slide7>
-            <Slide12></Slide12>
-            <Slide9></Slide9>
-
-            <Slide10></Slide10>
-            <Slide8></Slide8>
+            <Introduction />
+            <TableOfContents />
+            <WhyCentralizedPlanning />
+            <Reason1 />
+            <Reason2 />
+            <Reason3 />
+            <Reason4 />
+            <Reason5 />
+            <WhatIsDimeScheduler />
+            <ThePlanningSolution />
+            <SeamlessIntegration />
+            <FlexibleAndVersatile />
+            <Properties />
+            <Industries />
+            <Features />
+            <Stats />
+            <UseDimeScheduler />
+            <Reseller />
+            <LearnMore />
+            <Contact />
           </div>
         </main>
         <footer>

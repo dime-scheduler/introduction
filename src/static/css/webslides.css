@@ -1782,7 +1782,7 @@ Aligned items [class*="content-"]=== */
 [class*="content-"][class*="bg-"],
 [class*="content-"].frame,
 [class*="align"][class*="bg-"] {
-  padding: 4.8rem;
+  padding: 4rem; /*4.8*/
 }
 
 form[class*="bg-"] {
@@ -3881,7 +3881,7 @@ Slides - Backgrounds <section class="bg-primary">
 }
 
 .bg-purple {
-  background-color: #62b;
+  background-color: #6e62b5;
 }
 
 .bg-red {
@@ -3962,7 +3962,7 @@ Slides - Backgrounds <section class="bg-primary">
 
 /*Horizontal Gradient*/
 .bg-gradient-h {
-  background: linear-gradient(134deg, #32b 0, #62b 100%);
+  background: linear-gradient(134deg, #46276d 0, #6e62b5 100%);
 }
 
 /*Vertical Gradient*/
@@ -3971,15 +3971,15 @@ Slides - Backgrounds <section class="bg-primary">
     linear,
     left bottom,
     left top,
-    from(#62b),
-    to(#32b)
+    from(#6e62b5),
+    to(#46276d)
   );
-  background: linear-gradient(to top, #62b 0%, #32b 100%);
+  background: linear-gradient(to top, #6e62b5 0%, #46276d 100%);
 }
 
 /*Radial Gradient*/
 .bg-gradient-r {
-  background: radial-gradient(ellipse at center, #62b 0%, #32b 100%);
+  background: radial-gradient(ellipse at center, #6e62b5 0%, #46276d 100%);
 }
 
 /*White Gradient (vertical)*/
