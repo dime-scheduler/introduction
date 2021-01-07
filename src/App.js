@@ -70,18 +70,29 @@ export default class App extends Component {
             <Slide13></Slide13>
 
             <Slide4></Slide4>
-           
+
             <Slide5></Slide5>
-            
+
             <Slide6></Slide6>
             <Slide7></Slide7>
             <Slide12></Slide12>
             <Slide9></Slide9>
-            
+
             <Slide10></Slide10>
             <Slide8></Slide8>
           </div>
         </main>
+        <footer>
+          <div>
+            <p>
+              <span class="alignright">
+                <a href="http://dimescheduler.com" title="Dime.Scheduler">
+                  <img src={ds} alt="Dime.Scheduler" />
+                </a>
+              </span>
+            </p>
+          </div>
+        </footer>
       </div >
     );
   }
