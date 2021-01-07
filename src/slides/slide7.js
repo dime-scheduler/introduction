@@ -1,16 +1,6 @@
-export default function Start() {
+import features from '../data/features';
 
-    const features = [
-        { name: 'Drag & drop planning', faIcon: 'fa-bar-chart' },
-        { name: 'Gantt chart project planning', faIcon: 'fa-square' },
-        { name: 'Integrated map', faIcon: 'fa-cog' },
-        { name: 'Powerful resource filters', faIcon: 'fa-cog' },
-        { name: 'Capacity overview', faIcon: 'fa-cog' },
-        { name: 'Calendars', faIcon: 'fa-cog' },
-        { name: 'Connect to Microsoft Exchange', faIcon: 'fa-cog' },
-        { name: 'and many more', faIcon: 'fa-cog' },
-    ];
-
+export default function Features() {
     const featuresList = features.map(({ name, faIcon }) => {
         const linkHref = `#${faIcon}`;
         return (
@@ -25,7 +15,7 @@ export default function Start() {
     });
 
     return (
-        <section>
+        <section className="bg-primary">
             <div class="wrap">
                 <div class="content-center">
                     <h2 class="text-landing">Key features</h2>

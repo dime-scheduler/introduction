@@ -24,7 +24,10 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    const webslides = new window.WebSlides();
+    const webslides = new window.WebSlides({
+      loop: false,
+      changeOnClick: true
+    });
   }
 
   render() {
