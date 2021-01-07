@@ -1,15 +1,12 @@
 import features from '../data/features';
 
 export default function Features() {
-    const featuresList = features.map(({ name, faIcon }) => {
-        const linkHref = `#${faIcon}`;
+    const featuresList = features.map(({ name, icon, text }) => {
         return (
             <li>
-                <svg class={faIcon}>
-                    <use xlinkHref={linkHref}></use>
-                </svg>
+                {icon}
                 <h2>{name}</h2>
-                Multipurpose: services, features, specs...
+                {text}
             </li>
         );
     });

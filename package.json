@@ -1,8 +1,22 @@
 {
-  "name": "deck",
+  "name": "ds-introduction",
+  "displayName": "Introduction to Dime.Scheduler",
+  "homepage": "https://www.dimescheduler.com",
+  "license": "MIT",
+  "keywords": [
+    "Dime.Scheduler"
+  ],
+  "author": {
+    "name": "Hendrik Bulens",
+    "email": "hendrik.bulens@dimenics.com",
+    "url": "https://www.dimescheduler.com"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",

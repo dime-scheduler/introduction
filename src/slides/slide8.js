@@ -1,7 +1,7 @@
 
 export default function Start() {
     return (
-        <section>
+        <section className="bg-primary">
             <div className="wrap">
                 <div className="content-left">
                     <h3>Want to learn more?</h3>

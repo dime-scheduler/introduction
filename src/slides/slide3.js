@@ -9,7 +9,7 @@ export default function Start() {
                 <img src={bgImage} />
 
                 <br />
-                <p className="text-symbols">for ERP, CRP and any other LoB systems.</p>
+                <p className="text-symbols">for ERP, CRM and any other LoB systems.</p>
             </div>
         </section>
     )

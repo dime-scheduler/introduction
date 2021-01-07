@@ -1,4 +1,3 @@
-
 export default function Start() {
     return (
         <section class="aligncenter bg-primary">
