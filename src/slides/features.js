@@ -21,8 +21,12 @@ export default function Features() {
 
                 <ul class="flexblock">
                     {featuresList}
-                </ul >
-            </div >
+                </ul>
+
+                <div class="aligncenter" style={{ marginTop: '1em' }}>
+                    <p>For a complete overview of all features, check out <a href='https://docs.dimescheduler.com' target='_blank'>docs.dimescheduler.com</a></p>
+                </div>
+            </div>
         </section >
     )
 }

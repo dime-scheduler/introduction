@@ -1,4 +1,4 @@
-import bgImage2 from "../static/images/ds-screenshot-2.png";
+import bgImage2 from "../static/images/ds-screenshot-5.png";
 import ds from "../static/images/ds-light.png";
 
 export default function Integration() {

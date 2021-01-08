@@ -3756,7 +3756,7 @@ svg {
 
 [class*="bg-"] a,
 [class*="bg-gradient-"] a {
-  color: #bce;
+  color: #D7D3EA;
 }
 
 .bg-brown a {
@@ -3771,7 +3771,7 @@ a,
 }
 
 a:hover {
-  color: #3af;
+  color: #D3CFE8;
 }
 
 .flexblock li > a,

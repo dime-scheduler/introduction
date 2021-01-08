@@ -1,4 +1,4 @@
-import bgImage from "../static/images/ds-screenshot-1.png";
+import bgImage from "../static/images/ds-screenshot-6.png";
 import properties from '../data/properties';
 
 export default function Properties() {
@@ -17,7 +17,7 @@ export default function Properties() {
         <section>
             <div class="wrap">
                 <div class="card-50">
-                    <div class="flex-content">
+                    <div class="flex-content" style={{ padding: 0 }}>
                         <ul class="flexblock specs">
                             {propertiesList}
                         </ul>

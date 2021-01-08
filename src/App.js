@@ -22,6 +22,7 @@ import LearnMore from './slides/learnmore';
 import FlexibleAndVersatile from './slides/flexible';
 import TableOfContents from './slides/toc';
 import Contact from './slides/contact';
+import End from './slides/end';
 
 import Reason1 from './slides/centralized-reason-1';
 import Reason2 from './slides/centralized-reason-2';
@@ -89,6 +90,7 @@ export default class App extends Component {
             <Reseller />
             <LearnMore />
             <Contact />
+            <End />
           </div>
         </main>
         <footer>
