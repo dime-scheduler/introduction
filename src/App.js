@@ -1,5 +1,6 @@
 import './App.css';
 import { React, Component } from 'react';
+import { IntlProvider } from 'react-intl'
 
 import './static/css/webslides.css';
 import './static/css/svg-icons.css';
@@ -23,6 +24,7 @@ import FlexibleAndVersatile from './slides/flexible';
 import TableOfContents from './slides/toc';
 import Contact from './slides/contact';
 import End from './slides/end';
+import MoreFeatures from './slides/morefeatures';
 
 import Reason1 from './slides/centralized-reason-1';
 import Reason2 from './slides/centralized-reason-2';
@@ -33,6 +35,9 @@ import ds from "./static/images/ds-light.png";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe, faBookOpen } from '@fortawesome/free-solid-svg-icons'
+
+import messages_nl from "./i18n/nl.json";
+import messages_de from "./i18n/de.json";
 
 export default class App extends Component {
   constructor() {
@@ -47,6 +52,13 @@ export default class App extends Component {
   }
 
   render() {
+
+    const messages = {
+      'nl': messages_nl,
+      'de': messages_de
+    };
+
+    const language = navigator.language.split(/[-_]/)[0];  // language without region code
 
     return (
       <div>
@@ -68,31 +80,36 @@ export default class App extends Component {
           </nav>
         </header>
 
-        <main role="main">
-          <div id='webslides'>
-            <Introduction />
-            <TableOfContents />
-            <WhyCentralizedPlanning />
-            <Reason1 />
-            <Reason2 />
-            <Reason3 />
-            <Reason4 />
-            <Reason5 />
-            <WhatIsDimeScheduler />
-            <ThePlanningSolution />
-            <SeamlessIntegration />
-            <FlexibleAndVersatile />
-            <Properties />
-            <Industries />
-            <Features />
-            <Stats />
-            <UseDimeScheduler />
-            <Reseller />
-            <LearnMore />
-            <Contact />
-            <End />
-          </div>
-        </main>
+        <IntlProvider messages={messages[language]} locale={language} defaultLocale="en">
+
+          <main role="main">
+            <div id='webslides'>
+              <Introduction />
+              <TableOfContents />
+              <WhyCentralizedPlanning />
+              <Reason1 />
+              <Reason2 />
+              <Reason3 />
+              <Reason4 />
+              <Reason5 />
+              <WhatIsDimeScheduler />
+              <ThePlanningSolution />
+              <SeamlessIntegration />
+              <FlexibleAndVersatile />
+              <Properties />
+              <Industries />
+              <Features />
+              <MoreFeatures />
+              <Stats />
+              <UseDimeScheduler />
+              <Reseller />
+              <LearnMore />
+              <Contact />
+              <End />
+            </div>
+          </main>
+        </IntlProvider>
+
         <footer>
           <div>
             <p>

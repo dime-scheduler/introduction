@@ -1,4 +1,6 @@
+import { FormattedMessage } from 'react-intl'
 import tableOfContentsData from '../data/toc';
+
 export default function TableOfContents() {
 
     const tableOfContentsList = tableOfContentsData.map(({ pageNo, pageNoDisplay, chapter }) => {
@@ -15,7 +17,9 @@ export default function TableOfContents() {
     return (
         <section >
             <div class="wrap size-50">
-                <h3>Table of Contents</h3>
+                <h3>
+                    <FormattedMessage id="toc.title" defaultMessage="Table of contents" />
+                </h3>
                 <hr />
                 <div class="toc">
                     <ol>{tableOfContentsList}</ol>
