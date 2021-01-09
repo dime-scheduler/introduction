@@ -4,6 +4,9 @@
 
 # Introduction to Dime.Scheduler slide deck
 
+Live:
+- [GH Pages](https://dimenics.github.io/ds-introduction/)
+- [Azure App Service](https://dimeschedulerintroduction.azurewebsites.net/)
 
 ## Screenshots
 
