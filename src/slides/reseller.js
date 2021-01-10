@@ -5,7 +5,7 @@ export default function Reseller() {
     return (
         <section>
             <div className="wrap">
-                <h3>Want to become a reseller?</h3>
+                <h3>Interested in becoming a reseller?</h3>
                 <ul className="flexblock steps">
                     <li>
                         <span><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></span>
@@ -31,6 +31,9 @@ export default function Reseller() {
                         <p>Our support team is at your disposal for any of your questions.</p>
                     </li>
                 </ul>
+
+                <br />
+                <p>Get in touch with us to discover the benefits you get as a reseller!</p>
             </div>
         </section>
     )

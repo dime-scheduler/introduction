@@ -1572,7 +1572,7 @@ footer p {
 
 header[role="banner"] img,
 footer img {
-  height: 4rem;
+  height: 3rem; /* 4em */
   vertical-align: middle;
 }
 

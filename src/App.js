@@ -25,19 +25,32 @@ import TableOfContents from './slides/toc';
 import Contact from './slides/contact';
 import End from './slides/end';
 import MoreFeatures from './slides/morefeatures';
+import CentralizedPlanningMatters from './slides/centralized';
+import Testimonials from './slides/testimonials';
 
-import Reason1 from './slides/centralized-reason-1';
-import Reason2 from './slides/centralized-reason-2';
-import Reason3 from './slides/centralized-reason-3';
-import Reason4 from './slides/centralized-reason-4';
-import Reason5 from './slides/centralized-reason-5';
 import ds from "./static/images/ds-light.png";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe, faBookOpen } from '@fortawesome/free-solid-svg-icons'
 
 import messages_nl from "./i18n/nl.json";
 import messages_de from "./i18n/de.json";
+
+import reasons from './data/reasons';
+
+function Reason({ title, content, bgImage, position }) {
+  const headerClass = `content-${position} bg-trans-dark fadeInDown`;
+  return (
+    <section>
+      <span className="background" style={{ backgroundImage: `url(${bgImage})` }}></span>
+      <div className="wrap">
+        <div className={headerClass}>
+          <h2><strong>{title}</strong></h2>
+          <p>{content}</p>
+        </div>
+      </div>
+    </section>
+  )
+}
 
 export default class App extends Component {
   constructor() {
@@ -59,6 +72,9 @@ export default class App extends Component {
     };
 
     const language = navigator.language.split(/[-_]/)[0];  // language without region code
+
+    const reasonsList = reasons.map(({ title, content, bgImage, position }, i) =>
+      (<Reason key={i} title={title} content={content} bgImage={bgImage} position={position} />));
 
     return (
       <div>
@@ -87,11 +103,10 @@ export default class App extends Component {
               <Introduction />
               <TableOfContents />
               <WhyCentralizedPlanning />
-              <Reason1 />
-              <Reason2 />
-              <Reason3 />
-              <Reason4 />
-              <Reason5 />
+
+              {reasonsList}
+
+              <CentralizedPlanningMatters />
               <WhatIsDimeScheduler />
               <ThePlanningSolution />
               <SeamlessIntegration />
@@ -102,6 +117,7 @@ export default class App extends Component {
               <MoreFeatures />
               <Stats />
               <UseDimeScheduler />
+              <Testimonials />
               <Reseller />
               <LearnMore />
               <Contact />

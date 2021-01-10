@@ -1,6 +1,34 @@
-export default [
-    { title: 'Limit overtime', text: "Manage your workforce's time" },
-    { title: 'Last-minute changes', text: 'Respond quickly and easily to urgent interventions. ' },
-    { title: 'Duplicate bookings', text: "Don't waste your people's time with duplicate appointments" },
-    { title: 'Excessive status meetings', text: 'Reduce endless status meetings with a single version of the truth that is easy to access.' }
+import meeting from '../static/images/meeting.jfif';
+import worker from "../static/images/worker.jpg";
+import planning from "../static/images/planning.jpg";
+import professional from '../static/images/professional.jpg';
+import workforce from '../static/images/workforce.png';
+
+export default [{
+    title: "Maximize your workforce's capacity",
+    content: 'Optimize the usage your people and equipment with better time management and grow your business while reducing overhead costs.',
+    bgImage: worker,
+    position: 'left'
+}, {
+    title: "Make confident last-minute decisions",
+    content: 'With an up to date and complete overview of your resources and tasks, you can make effective and optimal decisions in a heartbeat.',
+    bgImage: planning,
+    position: 'right'
+},
+{
+    title: "Get the competitive edge",
+    content: "Get ahead of the competition by responding more quickly to your customer's inquiries. Every minute counts in an increasingly competitive world.",
+    bgImage: meeting,
+    position: 'left'
+}, {
+    title: "Maximize your workforce's capacity",
+    content: 'Optimize the usage your people and equipment with better time management and grow your business.',
+    bgImage: professional,
+    position: 'right'
+}, {
+    title: "Keep your people happy",
+    content: 'Keep your workforce happy with a good and efficient schedule. Minimize traffic time and maximize the time to let your people do what they do best.',
+    bgImage: workforce,
+    position: 'left'
+}
 ];

@@ -9,7 +9,7 @@ export default function WhyCentralizedPlanning() {
         <figure>
           <img src={ds} alt="Dime.Scheduler" />
         </figure>
-        <h2>Why you should consider implementing a centralized planning solution</h2>
+        <h2>The importance of planning</h2>
       </div>
     </section>
   )
