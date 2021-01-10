@@ -1,7 +1,7 @@
 {
   "name": "ds-introduction",
   "displayName": "Introduction to Dime.Scheduler",
-  "homepage": "http://dimenics.github.io/ds-introduction",
+  "homepage": "http://slides.dimescheduler.com",
   "license": "MIT",
   "keywords": [
     "Dime.Scheduler"
@@ -32,7 +32,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "gh-pages": "gh-pages -d build",
+    "deploy": "yarn build && yarn gh-pages"
   },
   "eslintConfig": {
     "extends": [

@@ -57,14 +57,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Deployment to GitHub pages
 
-Run the following scripts:
+Run `yarn deploy` to build and deploy the static website to the gh-pages branch.
 
-```
-yarn build
-yarn deploy
-```
-
-Go to the repository's settings and set `slides.dimescheduler.com` to the Custom domain field of the GitHub pages section. Make sure to do this before the website is published and indicates `Your site is published at https://slides.dimescheduler.com/ !`.
+Go to the repository's settings and set `slides.dimescheduler.com` to the Custom domain field of the GitHub pages section.
 
 ## Learn More
 

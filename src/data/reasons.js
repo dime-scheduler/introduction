@@ -12,12 +12,12 @@ export default [{
 }, {
     title: "Make confident last-minute decisions",
     content: 'With an up to date and complete overview of your resources and tasks, you can make effective and optimal decisions in a heartbeat.',
-    bgImage: planning,
+    bgImage: professional,
     position: 'right'
 }, {
     title: "Get the competitive edge",
     content: "Get ahead of the competition by responding more quickly to your customer's inquiries. Every minute counts in an increasingly competitive world.",
-    bgImage: professional,
+    bgImage: planning,
     position: 'left'
 }, {
     title: "Keep your people happy",
