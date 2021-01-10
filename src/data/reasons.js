@@ -14,21 +14,15 @@ export default [{
     content: 'With an up to date and complete overview of your resources and tasks, you can make effective and optimal decisions in a heartbeat.',
     bgImage: planning,
     position: 'right'
-},
-{
+}, {
     title: "Get the competitive edge",
     content: "Get ahead of the competition by responding more quickly to your customer's inquiries. Every minute counts in an increasingly competitive world.",
-    bgImage: meeting,
-    position: 'left'
-}, {
-    title: "Maximize your workforce's capacity",
-    content: 'Optimize the usage your people and equipment with better time management and grow your business.',
     bgImage: professional,
-    position: 'right'
+    position: 'left'
 }, {
     title: "Keep your people happy",
     content: 'Keep your workforce happy with a good and efficient schedule. Minimize traffic time and maximize the time to let your people do what they do best.',
     bgImage: workforce,
-    position: 'left'
+    position: 'right'
 }
 ];

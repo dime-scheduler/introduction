@@ -64,7 +64,7 @@ yarn build
 yarn deploy
 ```
 
-Go to the repository's settings and set `slides.dimescheduler.com` to the Custom domain field of the GitHub pages section.
+Go to the repository's settings and set `slides.dimescheduler.com` to the Custom domain field of the GitHub pages section. Make sure to do this before the website is published and indicates `Your site is published at https://slides.dimescheduler.com/ !`.
 
 ## Learn More
 
