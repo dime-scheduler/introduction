@@ -15,7 +15,7 @@ export default function Integration() {
                     <div class="column">
                         <figure><img className="alignleft" src={ds} alt="Dime.Scheduler" /></figure>
                         <br />
-                        <h2>Tailor Dime.Scheduler to your way of working</h2>
+                        <h2>Tailor Dime.Scheduler to your way of working.</h2>
                         <p class="text-intro">A flexible design allows for easy integration, configuration and customization.</p>
                     </div>
 
