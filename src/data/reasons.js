@@ -17,7 +17,7 @@ export default [{
     position: 'right'
 }, {
     title: "Comply with regulations",
-    content: 'Comply with all applicable laws and regulations such as maximimum work hours and minimum rest requirements. Honor labor union contracts and individual employee agreements and preferences. Minimize your legal exposure by assigning qualified resources to risky and complicated jobs.',
+    content: 'Comply with all applicable laws and regulations such as maximum work hours and minimum rest requirements. Honor labor union contracts and individual employee agreements and preferences. Minimize your legal exposure by assigning qualified resources to risky and complicated jobs.',
     bgImage: gavel,
     position: 'left'
 }, {
@@ -27,7 +27,7 @@ export default [{
     position: 'right'
 }, {
     title: "Keep your people happy",
-    content: 'With a good and efficient schedule. Minimize traffic time, overtime and maximize employee satisfaction by letting your people do what they do best.',
+    content: 'With a good and efficient schedule, you can minimize traffic time, overtime and maximize employee satisfaction by letting your people do what they do best.',
     bgImage: workforce,
     position: 'left'
 }
