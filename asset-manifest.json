@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e16aa672.chunk.css",
-    "main.js": "/static/js/main.b527d5a9.chunk.js",
-    "main.js.map": "/static/js/main.b527d5a9.chunk.js.map",
+    "main.js": "/static/js/main.e36e9f00.chunk.js",
+    "main.js.map": "/static/js/main.e36e9f00.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6b5ce62d.js",
     "runtime-main.js.map": "/static/js/runtime-main.6b5ce62d.js.map",
     "static/js/2.e98a9c93.chunk.js": "/static/js/2.e98a9c93.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.e16aa672.chunk.css.map": "/static/css/main.e16aa672.chunk.css.map",
     "static/js/2.e98a9c93.chunk.js.LICENSE.txt": "/static/js/2.e98a9c93.chunk.js.LICENSE.txt",
-    "static/js/main.b527d5a9.chunk.js.LICENSE.txt": "/static/js/main.b527d5a9.chunk.js.LICENSE.txt",
+    "static/js/main.e36e9f00.chunk.js.LICENSE.txt": "/static/js/main.e36e9f00.chunk.js.LICENSE.txt",
     "static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif": "/static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif",
     "static/media/bg-centralizedplanningsolutionmatters2.c4f8362e.jfif": "/static/media/bg-centralizedplanningsolutionmatters2.c4f8362e.jfif",
     "static/media/bg.9679d68a.png": "/static/media/bg.9679d68a.png",
@@ -21,11 +21,13 @@
     "static/media/ds-screenshot-4.8f278ab1.png": "/static/media/ds-screenshot-4.8f278ab1.png",
     "static/media/ds-screenshot-5.a4a427fe.png": "/static/media/ds-screenshot-5.a4a427fe.png",
     "static/media/ds-screenshot-6.e412bd6c.png": "/static/media/ds-screenshot-6.e412bd6c.png",
+    "static/media/gavel.fda1d405.jpg": "/static/media/gavel.fda1d405.jpg",
     "static/media/hello.815a3ca1.jpg": "/static/media/hello.815a3ca1.jpg",
     "static/media/meeting.2d77379a.jfif": "/static/media/meeting.2d77379a.jfif",
     "static/media/planning.d2b6ac22.jpg": "/static/media/planning.d2b6ac22.jpg",
     "static/media/professional.4ba9c43b.jpg": "/static/media/professional.4ba9c43b.jpg",
     "static/media/webslides.css": "/static/media/swipe.bab2d5d7.svg",
+    "static/media/worker-2.a30a4457.png": "/static/media/worker-2.a30a4457.png",
     "static/media/worker.4d77dcdd.jpg": "/static/media/worker.4d77dcdd.jpg",
     "static/media/workforce.7d1582e3.png": "/static/media/workforce.7d1582e3.png"
   },
@@ -33,6 +35,6 @@
     "static/js/runtime-main.6b5ce62d.js",
     "static/js/2.e98a9c93.chunk.js",
     "static/css/main.e16aa672.chunk.css",
-    "static/js/main.b527d5a9.chunk.js"
+    "static/js/main.e36e9f00.chunk.js"
   ]
 }
