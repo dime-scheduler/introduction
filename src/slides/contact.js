@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="flex-content">
           <h2>Want to get started with Dime.Scheduler?
               </h2>
-          <p className="text-intro">Schedule a free hour-long meeting on our website or get in touch by e-mail or phone!</p>
+          <p className="text-intro">Schedule a free hour-long demonstration on our website or get in touch by e-mail or phone!</p>
           <ul className="description">
             <li>
               <FontAwesomeIcon icon={faGlobe} />

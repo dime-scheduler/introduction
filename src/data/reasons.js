@@ -4,6 +4,8 @@ import planning from "../static/images/planning.jpg";
 import professional from '../static/images/professional.jpg';
 import workforce from '../static/images/workforce.png';
 import gavel from '../static/images/gavel.jpg';
+import holiday from '../static/images/holiday.jpg';
+import search from '../static/images/search.jpg';
 
 export default [{
     title: "Maximize your workforce's capacity",
@@ -24,6 +26,16 @@ export default [{
     title: "Make decisions with confidence",
     content: 'With an up to date and complete overview of your resources and tasks, you can make effective and optimal decisions in a heartbeat with minimal risk.',
     bgImage: professional,
+    position: 'right'
+}, {
+    title: "Simplify HR",
+    content: 'Make time-off requests and sick days a formality and reschedule without breaking a sweat.',
+    bgImage: holiday,
+    position: 'left'
+}, {
+    title: "Mix and match resources and tasks",
+    content: 'There is no room for compromise when it comes to customer service. Set requirements find the best resource for the job with the right qualifications, skills, location, etc.',
+    bgImage: search,
     position: 'right'
 }, {
     title: "Keep your people happy",
