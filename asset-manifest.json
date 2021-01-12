@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e16aa672.chunk.css",
-    "main.js": "/static/js/main.a8b64e67.chunk.js",
-    "main.js.map": "/static/js/main.a8b64e67.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d4e3b61d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d4e3b61d.js.map",
-    "static/js/2.92cae5b3.chunk.js": "/static/js/2.92cae5b3.chunk.js",
-    "static/js/2.92cae5b3.chunk.js.map": "/static/js/2.92cae5b3.chunk.js.map",
-    "static/js/3.acd089d9.chunk.js": "/static/js/3.acd089d9.chunk.js",
-    "static/js/3.acd089d9.chunk.js.map": "/static/js/3.acd089d9.chunk.js.map",
+    "main.css": "/static/css/main.c0705202.chunk.css",
+    "main.js": "/static/js/main.9edff0fc.chunk.js",
+    "main.js.map": "/static/js/main.9edff0fc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7184b3c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7184b3c.js.map",
+    "static/css/2.165ff965.chunk.css": "/static/css/2.165ff965.chunk.css",
+    "static/js/2.16fa7d52.chunk.js": "/static/js/2.16fa7d52.chunk.js",
+    "static/js/2.16fa7d52.chunk.js.map": "/static/js/2.16fa7d52.chunk.js.map",
+    "static/js/3.9b472000.chunk.js": "/static/js/3.9b472000.chunk.js",
+    "static/js/3.9b472000.chunk.js.map": "/static/js/3.9b472000.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e16aa672.chunk.css.map": "/static/css/main.e16aa672.chunk.css.map",
-    "static/js/2.92cae5b3.chunk.js.LICENSE.txt": "/static/js/2.92cae5b3.chunk.js.LICENSE.txt",
-    "static/js/main.a8b64e67.chunk.js.LICENSE.txt": "/static/js/main.a8b64e67.chunk.js.LICENSE.txt",
+    "static/css/2.165ff965.chunk.css.map": "/static/css/2.165ff965.chunk.css.map",
+    "static/css/main.c0705202.chunk.css.map": "/static/css/main.c0705202.chunk.css.map",
+    "static/js/2.16fa7d52.chunk.js.LICENSE.txt": "/static/js/2.16fa7d52.chunk.js.LICENSE.txt",
+    "static/js/main.9edff0fc.chunk.js.LICENSE.txt": "/static/js/main.9edff0fc.chunk.js.LICENSE.txt",
     "static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif": "/static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif",
     "static/media/bg-centralizedplanningsolutionmatters2.c4f8362e.jfif": "/static/media/bg-centralizedplanningsolutionmatters2.c4f8362e.jfif",
     "static/media/bg.9679d68a.png": "/static/media/bg.9679d68a.png",
@@ -35,6 +37,7 @@
     "static/media/planning.58252f4a.jpg": "/static/media/planning.58252f4a.jpg",
     "static/media/professional.bf9b035b.jpg": "/static/media/professional.bf9b035b.jpg",
     "static/media/search.50ccf514.jpg": "/static/media/search.50ccf514.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
     "static/media/webslides.css": "/static/media/swipe.bab2d5d7.svg",
     "static/media/tour.7b5c5a93.jpg": "/static/media/tour.7b5c5a93.jpg",
     "static/media/worker-2.806f2553.png": "/static/media/worker-2.806f2553.png",
@@ -42,9 +45,10 @@
     "static/media/workforce.131416d6.png": "/static/media/workforce.131416d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4e3b61d.js",
-    "static/js/2.92cae5b3.chunk.js",
-    "static/css/main.e16aa672.chunk.css",
-    "static/js/main.a8b64e67.chunk.js"
+    "static/js/runtime-main.d7184b3c.js",
+    "static/css/2.165ff965.chunk.css",
+    "static/js/2.16fa7d52.chunk.js",
+    "static/css/main.c0705202.chunk.css",
+    "static/js/main.9edff0fc.chunk.js"
   ]
 }
