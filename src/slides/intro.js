@@ -7,7 +7,12 @@ export default function Introduction() {
             <div className="wrap">
                 <h1 className="text-landing">Dime.Scheduler</h1>
                 <p className="text-symbols">Stop puzzling. Start planning.</p>
+
+                <br />
+                <b>PREVIEW</b>
             </div>
+
+
         </section>
     )
 }

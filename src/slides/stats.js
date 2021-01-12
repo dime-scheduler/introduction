@@ -4,14 +4,14 @@ import { faGlobe, faUsers, faUserFriends, faHandshake } from '@fortawesome/free-
 export default function Stats() {
     return (
         <section>
-            <div class="wrap">
-                <div class="content-left">
+            <div className="wrap">
+                <div className="content-left">
                     <h2>Looking for a integrated planning solution that can be tailored to your needs?</h2>
                 </div>
-                <div class="content-left">
+                <div className="content-left">
                     <p>Dime.Scheduler has a proven track record with a vast network of great partners and inspiring customers who trust us for managing their day-to-day business.</p>
                 </div>
-                <ul class="flexblock metrics">
+                <ul className="flexblock metrics">
                     <li>
                         <FontAwesomeIcon icon={faHandshake} />
                     More than 60 resellers

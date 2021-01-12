@@ -16,10 +16,10 @@ export default function Testimonials() {
     ));
     return (
         <section>
-            <div class="wrap">
+            <div className="wrap">
                 <h2>Testimonials</h2>
                
-                <ul class="flexblock gallery">
+                <ul className="flexblock gallery">
                     {testimonialsList}
                 </ul>
             </div>

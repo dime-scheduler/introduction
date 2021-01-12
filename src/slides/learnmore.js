@@ -16,7 +16,7 @@ export default function LearnMore() {
 
                 <div className="content-left">
                     <div className="embed">
-                        <iframe src="https://www.youtube.com/embed/RE49agLKtdo" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/RE49agLKtdo" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>

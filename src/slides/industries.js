@@ -12,10 +12,10 @@ export default function Industries() {
 
     return (
         <section>
-            <div class="wrap">
+            <div className="wrap">
                 <h3>Industries</h3>
                 <p>Showcasing Dime.Scheduler's versatility</p>
-                <ul class="flexblock metrics border">
+                <ul className="flexblock metrics border">
                     {industriesList}
                 </ul>
             </div>

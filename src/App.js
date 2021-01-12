@@ -29,6 +29,7 @@ import CentralizedPlanningMatters from './slides/centralized';
 import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
 import WhyPlanningQuote from './slides/whyplanningquote';
+import Tour from './slides/tour';
 
 import ds from "./static/images/ds-light.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -82,6 +83,7 @@ export default class App extends Component {
 
           <main role="main">
             <div id='webslides'>
+
               <Introduction />
               <TableOfContents />
               <WhyCentralizedPlanning />
@@ -92,10 +94,11 @@ export default class App extends Component {
               <ThePlanningSolution />
               <SeamlessIntegration />
               <FlexibleAndVersatile />
-              <Properties />
-              <Industries />
               <Features />
+              {Tour()}
               <MoreFeatures />
+              <Industries />
+              <Properties />
               <Stats />
               <UseDimeScheduler />
               <Testimonials />
@@ -108,9 +111,10 @@ export default class App extends Component {
         </IntlProvider>
 
         <footer>
-          <div>
+          <div className="wrap">
             <p>
-              <span class="alignright">
+              <span class="alignleft">#preview</span>
+              <span className="alignright">
                 <a href="http://dimescheduler.com" title="Dime.Scheduler">
                   <img src={ds} alt="Dime.Scheduler" />
                 </a>

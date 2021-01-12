@@ -3,25 +3,25 @@ import tableOfContentsData from '../data/toc';
 
 export default function TableOfContents() {
 
-    const tableOfContentsList = tableOfContentsData.map(({ pageNo, pageNoDisplay, chapter }) => {
+    const tableOfContentsList = tableOfContentsData.map(({ pageNo, pageNoDisplay, chapter },i) => {
         const slideUrl = `#slide=${pageNo}`;
         return (
-            <li>
+            <li key={i}>
                 <a href={slideUrl} title={chapter}>
-                    <span class="chapter">{chapter}</span>
-                    <span class="toc-page">{pageNoDisplay}</span>
+                    <span className="chapter">{chapter}</span>
+                    <span className="toc-page">{pageNoDisplay}</span>
                 </a>
             </li>
         )
     });
     return (
-        <section >
-            <div class="wrap size-50">
+        <section>
+            <div className="wrap size-50">
                 <h3>
                     <FormattedMessage id="toc.title" defaultMessage="Table of contents" />
                 </h3>
                 <hr />
-                <div class="toc">
+                <div className="toc">
                     <ol>{tableOfContentsList}</ol>
                 </div>
             </div>
