@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  footer {
+    visibility: hidden;
+    display: none;
+  }
+
+  header {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.slick-prev:before {
+  color: black !important;
+}
+.slick-next:before {
+  color: black !important;
+}
+
+/* the slides */
+.slick-slide {
+  margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -5px;
+}

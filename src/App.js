@@ -111,16 +111,12 @@ export default class App extends Component {
         </IntlProvider>
 
         <footer>
-          <div className="wrap">
-            <p>
-              <span class="alignleft">#preview</span>
-              <span className="alignright">
-                <a href="http://dimescheduler.com" title="Dime.Scheduler">
-                  <img src={ds} alt="Dime.Scheduler" />
-                </a>
-              </span>
-            </p>
-          </div>
+          <span class="alignleft">#preview</span>
+          <span className="alignright">
+            <a href="http://dimescheduler.com" title="Dime.Scheduler">
+              <img src={ds} alt="Dime.Scheduler" />
+            </a>
+          </span>
         </footer>
       </div >
     );
