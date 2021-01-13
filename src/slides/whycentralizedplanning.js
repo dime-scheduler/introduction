@@ -1,3 +1,4 @@
+import { FormattedMessage } from 'react-intl'
 import ds from "../static/images/ds-dark.png";
 import bgImage from '../static/images/bg-centralizedplanningsolutionmatters2.jfif'
 
@@ -9,7 +10,7 @@ export default function WhyCentralizedPlanning() {
         <figure>
           <img src={ds} alt="Dime.Scheduler" />
         </figure>
-        <h2>The importance of planning</h2>
+        <h2><FormattedMessage id="whyplanning.title" defaultMessage="The importance of planning" /></h2>
       </div>
     </section>
   )

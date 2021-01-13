@@ -8,6 +8,9 @@ import './static/css/svg-icons.css';
 import './static/js/webslides';
 import './static/js/svg-icons';
 
+import Header from './layout/header';
+import Footer from './layout/footer';
+
 import Introduction from './slides/intro';
 import WhatIsDimeScheduler from './slides/whatisdimescheduler';
 import ThePlanningSolution from './slides/planningsolution';
@@ -57,27 +60,13 @@ export default class App extends Component {
       'de': messages_de
     };
 
-    const language = navigator.language.split(/[-_]/)[0];  // language without region code
+    const search = window.location.search;
+    const params = new URLSearchParams(search);
+    const language = (params.get('lng').substr(0, 2) || "EN").toLowerCase();
 
     return (
       <div>
-        <header role="banner">
-          <nav role="navigation">
-            <figure><img className="alignleft" src={ds} alt="Dime.Scheduler" /></figure>
-            <ul>
-              <li>
-                <a rel="external" href="https://www.dimescheduler.com" title="Dime.Scheduler">
-                  <FontAwesomeIcon icon={faGlobe} />
-                </a>
-              </li>
-              <li>
-                <a rel="external" href="https://docs.dimescheduler.com" title="Dime.Scheduler Docs">
-                  <FontAwesomeIcon icon={faBookOpen} />
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+        <Header />
 
         <IntlProvider messages={messages[language]} locale={language} defaultLocale="en">
 
@@ -110,14 +99,7 @@ export default class App extends Component {
           </main>
         </IntlProvider>
 
-        <footer>
-          <span class="alignleft">#preview</span>
-          <span className="alignright">
-            <a href="http://dimescheduler.com" title="Dime.Scheduler">
-              <img src={ds} alt="Dime.Scheduler" />
-            </a>
-          </span>
-        </footer>
+        <Footer />
       </div >
     );
   }

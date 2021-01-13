@@ -3,13 +3,13 @@ import highlights from '../data/tour';
 
 function Highlight({ title, intro, body, img, alignContentLeft = true }) {
 
-    const content = <div class="column">
+    const content = <div className="column">
         <h1>{title}</h1>
-        <p class="text-intro">{intro}</p>
+        <p className="text-intro">{intro}</p>
         <p>{body}</p>
     </div>;
 
-    const image = <div class="column">
+    const image = <div className="column">
         <figure>
             <img src={img} />
         </figure>
@@ -28,8 +28,8 @@ function Highlight({ title, intro, body, img, alignContentLeft = true }) {
 
     return (
         <section>
-            <div class="wrap">
-                <div class="grid vertical-align">
+            <div className="wrap">
+                <div className="grid vertical-align">
                     {first}
                     {second}
                 </div>
@@ -44,11 +44,11 @@ export default function Tour() {
 
     return [
         (
-            <section class="bg-black slide-top">
-                <span class="background" style={{ backgroundImage: `url(${tour})` }}></span>
-                <div class="wrap">
-                    <h2 class="text-landing">Highlight reel</h2>
-                    <p class="text-context text-intro">A brief tour of the features of Dime.Scheduler</p>
+            <section className="bg-primary slide-top">
+                <span className="background" style={{ backgroundImage: `url(${tour})` }}></span>
+                <div className="wrap">
+                    <h2 className="text-landing">Highlight reel</h2>
+                    <p className="text-context text-intro">A brief tour of the features of Dime.Scheduler</p>
                 </div>
             </section>
         ),

@@ -1,8 +1,9 @@
+import { FormattedMessage } from 'react-intl'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 import screenshot from "../static/images/ds-screenshot-4.png";
-
 
 export default function Contact() {
   return (
@@ -12,9 +13,12 @@ export default function Contact() {
           <img src={screenshot} alt="Dime.Scheduler" />
         </figure>
         <div className="flex-content">
-          <h2>Want to get started with Dime.Scheduler?
-              </h2>
-          <p className="text-intro">Schedule a free hour-long demonstration on our website or get in touch by e-mail or phone!</p>
+          <h2><FormattedMessage id="contact.title" defaultMessage="Want to get started with Dime.Scheduler?" /></h2>
+          <p className="text-intro">
+            <FormattedMessage
+              id="contact.subtitle"
+              defaultMessage="Schedule a free hour-long demonstration on our website or get in touch by e-mail or phone!" />
+          </p>
           <ul className="description">
             <li>
               <FontAwesomeIcon icon={faGlobe} />

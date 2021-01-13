@@ -3,7 +3,7 @@ import tableOfContentsData from '../data/toc';
 
 export default function TableOfContents() {
 
-    const tableOfContentsList = tableOfContentsData.map(({ pageNo, pageNoDisplay, chapter },i) => {
+    const tableOfContentsList = tableOfContentsData.map(({ pageNo, pageNoDisplay, chapter }, i) => {
         const slideUrl = `#slide=${pageNo}`;
         return (
             <li key={i}>

@@ -1,10 +1,15 @@
-<p align="center"><img src="assets/ds.png?raw=true" alt="DS Logo" height="250"></p>
+<p align="center">
+    <img src="assets/ds.png?raw=true" alt="DS Logo" height="250">
+</p>
 
-[![Build Status](https://dev.azure.com/dimenicsbe/Dime/_apis/build/status/dimenics.ds-introduction?branchName=master)](https://dev.azure.com/dimenicsbe/Dime/_build/latest?definitionId=188&branchName=master) ![Release status](https://vsrm.dev.azure.com/dimenicsbe/_apis/public/Release/badge/3faeaf76-379c-4e0d-9078-1d71ee186ba5/2/2) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+<p align="center">
+    <img src="https://dev.azure.com/dimenicsbe/Dime/_apis/build/status/dimenics.ds-introduction?branchName=master" /> <img src="https://vsrm.dev.azure.com/dimenicsbe/_apis/public/Release/badge/3faeaf76-379c-4e0d-9078-1d71ee186ba5/2/2" /> <img src="https://img.shields.io/badge/License-MIT-blue.svg"/> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+</p>
 
 # Introduction to Dime.Scheduler slide deck
 
 Live:
+
 - [GH Pages](https://dimenics.github.io/ds-introduction/)
 - [Azure App Service](https://dimeschedulerintroduction.azurewebsites.net/)
 
@@ -19,9 +24,25 @@ Live:
 ![](assets/slide7.png)
 ![](assets/slide8.png)
 
+## Languages
+
+Two ways to change languages. The first is by using the navigation menu in the header:
+
+<img src="./assets/switchlanguage.png" />
+
+The other method is by using a query string parameter. 
+Add a query string parameter named `lng` and use one of the supported languages:
+
+| Language | Code |
+| -------- | ---- |
+| Dutch    | nl   |
+| German   | de   |
+
+By default, English is used. No query string needs to be passed to use the default language.
+
 ## Scripts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 The usual commands have been kept. In this directory, you can run:
 
 ### `yarn start`
