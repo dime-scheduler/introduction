@@ -1,3 +1,5 @@
+import { FormattedMessage } from 'react-intl';
+
 import tour from "../static/images/tour.jpg";
 import highlights from '../data/tour';
 
@@ -47,8 +49,8 @@ export default function Tour() {
             <section className="bg-primary slide-top">
                 <span className="background" style={{ backgroundImage: `url(${tour})` }}></span>
                 <div className="wrap">
-                    <h2 className="text-landing">Highlight reel</h2>
-                    <p className="text-context text-intro">A brief tour of the features of Dime.Scheduler</p>
+                    <h2 className="text-landing"><FormattedMessage id="tour.title" defaultMessage="Highlight reel" /></h2>
+                    <p className="text-context text-intro"><FormattedMessage id="tour.subtitle" defaultMessage="A brief tour of the features of Dime.Scheduler" /></p>
                 </div>
             </section>
         ),

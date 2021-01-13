@@ -1,3 +1,5 @@
+import { FormattedMessage } from 'react-intl'
+
 import bgImage from "../static/images/ds-laptop.png";
 import ds from "../static/images/ds-light.png";
 
@@ -15,8 +17,8 @@ export default function ThePlanningSolution() {
                     <div className="column">
                         <figure><img className="alignleft" src={ds} alt="Dime.Scheduler" /></figure>
                         <br />
-                        <h2>The graphical resource and project planning solution.</h2>
-                        <p className="text-intro">Supercharge your ERP, CRM or any LoB system with Dime.Scheduler and plan ahead.</p>
+                        <h2><FormattedMessage id="ds.property1.title" defaultMessage="The graphical resource and project planning solution."/></h2>
+                        <p className="text-intro"><FormattedMessage id="ds.property1.content" defaultMessage="Supercharge your ERP, CRM or any LoB system with Dime.Scheduler and plan ahead." /></p>
                     </div>
 
                 </div>

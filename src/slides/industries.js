@@ -1,3 +1,4 @@
+import { FormattedMessage } from 'react-intl';
 import industries from '../data/industries';
 
 export default function Industries() {
@@ -13,8 +14,8 @@ export default function Industries() {
     return (
         <section>
             <div className="wrap">
-                <h3>Industries</h3>
-                <p>Showcasing Dime.Scheduler's versatility</p>
+                <h3> <FormattedMessage id="industries.title" defaultMessage="Industries" /></h3>
+                <p> <FormattedMessage id="industries.subtitle" defaultMessage="Showcasing Dime.Scheduler's versatility" /></p>
                 <ul className="flexblock metrics border">
                     {industriesList}
                 </ul>

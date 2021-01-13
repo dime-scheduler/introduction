@@ -31,9 +31,7 @@ import MoreFeatures from './slides/morefeatures';
 import CentralizedPlanningMatters from './slides/centralized';
 import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
-import WhyPlanningQuote from './slides/whyplanningquote';
-import WhyPlanningQuote2 from './slides/whyplanningquote2';
-import WhyPlanningQuote3 from './slides/whyplanningquote3';
+import PlanningQuotes from './slides/planningquotes';
 
 import Tour from './slides/tour';
 import NotConvinced from './slides/notconvinced';
@@ -83,9 +81,7 @@ export default class App extends Component {
               <WhyCentralizedPlanning />
               {Reasons}
               <NotConvinced />
-              <WhyPlanningQuote />
-              <WhyPlanningQuote2 />
-              <WhyPlanningQuote3 />
+              {PlanningQuotes()}
               <CentralizedPlanningMatters />
               <WhatIsDimeScheduler />
               <ThePlanningSolution />
