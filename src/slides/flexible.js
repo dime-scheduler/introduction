@@ -17,7 +17,7 @@ export default function Integration() {
                     <div className="column">
                         <figure><img className="alignleft" src={ds} alt="Dime.Scheduler" /></figure>
                         <br />
-                        <h2><FormattedMessage id="ds.property3.title" defaultMessage="Tailor Dime.Scheduler to your way of working. " /></h2>
+                        <h2><FormattedMessage id="ds.property3.title" defaultMessage="Tailor Dime.Scheduler to your way of working" /></h2>
                         <p className="text-intro"><FormattedMessage id="ds.property3.content" defaultMessage="A flexible design allows for easy integration, configuration and customization." /></p>
                     </div>
 

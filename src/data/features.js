@@ -5,12 +5,12 @@ import { faLink, faProjectDiagram, faHandPointUp, faMap, faFilter, faChartLine, 
 export default [
     {
         name: <FormattedMessage id="features.feature1.title" defaultMessage="Drag and drop planning" />,
-        text: <FormattedMessage id="features.feature1.content" defaultMessage="Use the powerful planning board and intuitive drag and drop capabilities to plan your tasks." />,
+        text: <FormattedMessage id="features.feature1.content" defaultMessage="Use the powerful planning board and intuitive drag and drop capabilities to plan your tasks and resources." />,
         icon: <FontAwesomeIcon icon={faHandPointUp} />
     },
     {
         name: <FormattedMessage id="features.feature2.title" defaultMessage="Gantt chart project planning" />,
-        text: <FormattedMessage id="features.feature2.content" defaultMessage="Keep your projects on schedule with the trustee Gantt chart." />,
+        text: <FormattedMessage id="features.feature2.content" defaultMessage="Keep your projects on schedule and within budget with the trustee Gantt chart." />,
         icon: <FontAwesomeIcon icon={faProjectDiagram} />
     },
     {

@@ -7,7 +7,7 @@ export default function NotConvinved() {
             <span className="background cover" style={{ backgroundImage: `url(${bgImage})` }}></span>
             <div className="wrap" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
                 <h1 className="aligncenter">
-                    <FormattedMessage id="notconvinced.title" defaultMessage="Not convinced?" />
+                    <FormattedMessage id="notconvinced.title" defaultMessage="Not entirely convinced yet?" />
                 </h1>
             </div>
         </section>

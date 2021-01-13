@@ -6,12 +6,13 @@
     <img src="https://dev.azure.com/dimenicsbe/Dime/_apis/build/status/dimenics.ds-introduction?branchName=master" /> <img src="https://vsrm.dev.azure.com/dimenicsbe/_apis/public/Release/badge/3faeaf76-379c-4e0d-9078-1d71ee186ba5/2/2" /> <img src="https://img.shields.io/badge/License-MIT-blue.svg"/> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
 </p>
 
-# Introduction to Dime.Scheduler slide deck
+<h1 align="center">Dime.Scheduler introduction slide deck </h1>
 
-Live:
+Visit the slide deck on [slides.dimescheduler.com](https://slides.dimescheduler.com).
 
-- [GH Pages](https://dimenics.github.io/ds-introduction/)
-- [Azure App Service](https://dimeschedulerintroduction.azurewebsites.net/)
+## About the project
+
+The main goal of this project is to show what Dime.Scheduler is and what kind of business challenges it aims to tackle. It provides the necessary content for potential customers and resellers to learn what it is meant to do and how it does it.
 
 ## Screenshots
 
@@ -26,11 +27,11 @@ Live:
 
 ## Languages
 
-Two ways to change languages. The first is by using the navigation menu in the header:
+There are two ways to change languages. The first is by using the navigation menu in the header:
 
 <img src="./assets/switchlanguage.png" />
 
-The other method is by using a query string parameter. 
+The other method is by using a query string parameter.
 Add a query string parameter named `lng` and use one of the supported languages:
 
 | Language | Code |
@@ -38,12 +39,13 @@ Add a query string parameter named `lng` and use one of the supported languages:
 | Dutch    | nl   |
 | German   | de   |
 
+Because a query string is used, the URL can be bookmarked. For example: `https://slides.dimescheduler.com?lng=nl` will set the language to Dutch by default.
+
 By default, English is used. No query string needs to be passed to use the default language.
 
 ## Scripts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-The usual commands have been kept. In this directory, you can run:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The usual commands have been kept. In this directory, you can run the following commands:
 
 ### `yarn start`
 
