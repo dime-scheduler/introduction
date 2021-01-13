@@ -62,7 +62,8 @@ export default class App extends Component {
 
     const search = window.location.search;
     const params = new URLSearchParams(search);
-    const language = (params.get('lng').substr(0, 2) || "EN").toLowerCase();
+    const lngQueryStringParam = params.get('lng');
+    const language = (lngQueryStringParam && lngQueryStringParam.substr(0, 2) || "EN").toLowerCase();
 
     return (
       <div>
