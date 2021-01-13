@@ -1,12 +1,12 @@
-import worker from "../static/images/worker-2.png";
+import worker from "../static/images/person3.png";
 
 export default function WhyPlaningQuote() {
     return (
-        <section className="bg-gradient-r">
+        <section className="bg-gradient-v">
             <div className="wrap">
                 <div className="content-left" style={{width:'70%'}}>
                     <blockquote className="text-quote">
-                        <p>Employee turnover is 174% more likely without real-time scheduling capabilities.</p>
+                        <p>Organizations with predictable scheduling are 53% more likely to experience lower turnover than their industry average.</p>
                     </blockquote>
                 </div>
             </div>

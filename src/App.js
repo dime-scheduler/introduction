@@ -32,7 +32,11 @@ import CentralizedPlanningMatters from './slides/centralized';
 import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
 import WhyPlanningQuote from './slides/whyplanningquote';
+import WhyPlanningQuote2 from './slides/whyplanningquote2';
+import WhyPlanningQuote3 from './slides/whyplanningquote3';
+
 import Tour from './slides/tour';
+import NotConvinced from './slides/notconvinced';
 
 import ds from "./static/images/ds-light.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -78,7 +82,10 @@ export default class App extends Component {
               <TableOfContents />
               <WhyCentralizedPlanning />
               {Reasons}
+              <NotConvinced />
               <WhyPlanningQuote />
+              <WhyPlanningQuote2 />
+              <WhyPlanningQuote3 />
               <CentralizedPlanningMatters />
               <WhatIsDimeScheduler />
               <ThePlanningSolution />
