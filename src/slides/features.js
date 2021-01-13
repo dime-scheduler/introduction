@@ -2,9 +2,10 @@ import { FormattedMessage } from 'react-intl';
 import features from '../data/features';
 
 export default function Features() {
-    const featuresList = features.map(({ name, icon, text }) => {
+    const featuresList = features.map(({ name, icon, text }, i) => {
+        let key = `feature-${i}`;
         return (
-            <li>
+            <li key={key}>
                 {icon}
                 <h2>{name}</h2>
                 {text}

@@ -1,12 +1,7 @@
 import './App.css';
 import { React, Component } from 'react';
 import { IntlProvider } from 'react-intl'
-
-import './static/css/webslides.css';
-import './static/css/svg-icons.css';
-
-import './static/js/webslides';
-import './static/js/svg-icons';
+import ReactGA from 'react-ga';
 
 import Header from './layout/header';
 import Footer from './layout/footer';
@@ -32,20 +27,22 @@ import CentralizedPlanningMatters from './slides/centralized';
 import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
 import PlanningQuotes from './slides/planningquotes';
-
 import Tour from './slides/tour';
 import NotConvinced from './slides/notconvinced';
 
-import ds from "./static/images/ds-light.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faBookOpen } from '@fortawesome/free-solid-svg-icons'
-
 import messages_nl from "./i18n/nl.json";
 import messages_de from "./i18n/de.json";
+import './static/css/webslides.css';
+import './static/css/svg-icons.css';
+import './static/js/webslides';
+import './static/js/svg-icons';
 
 export default class App extends Component {
   constructor() {
     super();
+
+    ReactGA.initialize('G-J94SE220WB');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   componentDidMount() {
