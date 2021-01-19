@@ -18,7 +18,7 @@ export default [
         gradient: 'h',
         imageAlign: 'left',
         image: ss2,
-        text: <FormattedMessage id="research.quote2" defaultMessage='Employees with the ability to manage schedules in real time are 6X more satisfied than those without.' />
+        text: <FormattedMessage id="research.quote2" defaultMessage='Employees with the ability to manage schedules in real time are 6 times more satisfied than those without.' />
     },
     {
         gradient: 'v',

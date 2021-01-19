@@ -1,6 +1,6 @@
 import { FormattedMessage } from 'react-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink, faProjectDiagram, faHandPointUp, faMap, faFilter, faChartLine, faCalendar, faExchangeAlt } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faProjectDiagram, faHandPointUp, faMap, faFilter, faChartLine, faCalendar, faExchangeAlt } from '@fortawesome/free-solid-svg-icons'
 
 export default [
     {
@@ -39,8 +39,8 @@ export default [
         icon: <FontAwesomeIcon icon={faExchangeAlt} />
     },
     {
-        name: <FormattedMessage id="features.feature8.title" defaultMessage="and many more" />,
-        text: <FormattedMessage id="features.feature8.content" defaultMessage=" " />,
-        icon: <FontAwesomeIcon icon={faLink} />
+        name: <FormattedMessage id="features.feature8.title" defaultMessage="Personalized" />,
+        text: <FormattedMessage id="features.feature8.content" defaultMessage="Configure and customize at will and use extensive personalization capabilities to plan the way you like." />,
+        icon: <FontAwesomeIcon icon={faUser} />
     },
 ];

@@ -4,8 +4,8 @@ import properties from '../data/properties';
 
 export default function Properties() {
 
-    const propertiesList = properties.map(({ icon, header, text }) => (
-        <li>
+    const propertiesList = properties.map(({ icon, header, text }, i) => (
+        <li key={'property-' + i}>
             <div>
                 {icon}
                 <h2>{header}</h2>

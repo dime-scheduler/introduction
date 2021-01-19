@@ -17,7 +17,7 @@ export default function Stats() {
                     <p>
                         <FormattedMessage
                             id="stats.subtitle"
-                            defaultMessage="Dime.Scheduler has a proven track record with a vast network of great partners and inspiring customers who trust us for managing their day-to-day business." />
+                            defaultMessage="Dime.Scheduler has a proven track record with a vast network of great partners and inspiring customers who trust us for managing their planning needs." />
                     </p>
                 </div>
                 <ul className="flexblock metrics">

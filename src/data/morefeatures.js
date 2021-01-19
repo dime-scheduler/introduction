@@ -6,7 +6,7 @@ const style = { fontSize: '0.7em' };
 
 export default [
     {
-        name: <FormattedMessage id="morefeatures.feature1" defaultMessage='Real-time bi-directional message flow' />,
+        name: <FormattedMessage id="morefeatures.feature1" defaultMessage='Real-time and bi-directional message flow' />,
         icon: <FontAwesomeIcon icon={faExchangeAlt} style={style} />
     },
     {
@@ -50,7 +50,7 @@ export default [
         icon: <FontAwesomeIcon icon={faLock} style={style} />
     },
     {
-        name: <FormattedMessage id="morefeatures.feature12" defaultMessage='Easy integration with Fast Track' />,
+        name: <FormattedMessage id="morefeatures.feature12" defaultMessage='Easy integration with Fast Track for Business Central' />,
         icon: <FontAwesomeIcon icon={faLink} style={style} />
     }
 ];

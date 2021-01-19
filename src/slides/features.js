@@ -25,7 +25,7 @@ export default function Features() {
                     <p>
                         <FormattedMessage
                             id="features.subtitle"
-                            defaultMessage="Among many others, here is a selection of key features:" />
+                            defaultMessage="Among many others, here is a selection of key features" />
                     </p>
                 </div>
 
