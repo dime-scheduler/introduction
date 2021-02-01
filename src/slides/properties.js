@@ -17,10 +17,6 @@ export default function Properties() {
     return (
         <section>
             <div className="wrap">
-                <h2>
-                    <FormattedMessage id="properties.title" defaultMessage="In a nutshell" />
-                </h2>
-                <br />
                 <div className="card-50">
                     <div className="flex-content" style={{ padding: 0 }}>
                         <ul className="flexblock specs">

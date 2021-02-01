@@ -47,7 +47,7 @@ export default [{
     bgImage: professional,
     position: 'right'
 }, {
-    title: <FormattedMessage id="reasons.reason5.header" defaultMessage="Simplify HR" />,
+    title: <FormattedMessage id="reasons.reason5.header" defaultMessage="Connect HR to planning" />,
     content: <FormattedMessage
         id="reasons.reason5.content"
         defaultMessage={`Make time-off requests and sick days a formality and reschedule without breaking a sweat.`} />,

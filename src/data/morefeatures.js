@@ -1,6 +1,6 @@
 import { FormattedMessage } from 'react-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink, faProjectDiagram, faObjectGroup, faLanguage, faUserAlt, faEdit, faBell, faDatabase, faCloud, faLock, faCalendar, faExchangeAlt } from '@fortawesome/free-solid-svg-icons'
+import { faLink, faProjectDiagram, faObjectGroup, faLanguage, faCalendarAlt, faEdit, faBell, faDatabase, faCloud, faLock, faCalendar, faExchangeAlt } from '@fortawesome/free-solid-svg-icons'
 
 const style = { fontSize: '0.7em' };
 
@@ -14,7 +14,7 @@ export default [
         icon: <FontAwesomeIcon icon={faProjectDiagram} style={style} />
     },
     {
-        name: <FormattedMessage id="morefeatures.feature3" defaultMessage='Multi-database' />,
+        name: <FormattedMessage id="morefeatures.feature3" defaultMessage='Connect to multiple systems' />,
         icon: <FontAwesomeIcon icon={faDatabase} style={style} />
     },
     {
@@ -30,8 +30,8 @@ export default [
         icon: <FontAwesomeIcon icon={faCalendar} style={style} />
     },
     {
-        name: <FormattedMessage id="morefeatures.feature7" defaultMessage='Extensive personalization' />,
-        icon: <FontAwesomeIcon icon={faUserAlt} style={style} />
+        name: <FormattedMessage id="morefeatures.feature7" defaultMessage='Calendars' />,
+        icon: <FontAwesomeIcon icon={faCalendarAlt} style={style} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature8" defaultMessage='Grouping, sorting, filtering' />,

@@ -12,23 +12,17 @@ import ThePlanningSolution from './slides/planningsolution';
 import WhyCentralizedPlanning from './slides/whycentralizedplanning';
 import Properties from './slides/properties';
 import Industries from './slides/industries';
-import Features from './slides/features';
-import Reseller from './slides/reseller';
 import Stats from './slides/stats';
-import UseDimeScheduler from './slides/use';
 import SeamlessIntegration from './slides/seamlessintegration';
 import LearnMore from './slides/learnmore';
 import FlexibleAndVersatile from './slides/flexible';
-import TableOfContents from './slides/toc';
 import Contact from './slides/contact';
 import End from './slides/end';
 import MoreFeatures from './slides/morefeatures';
 import CentralizedPlanningMatters from './slides/centralized';
 import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
-import PlanningQuotes from './slides/planningquotes';
 import Tour from './slides/tour';
-import NotConvinced from './slides/notconvinced';
 
 import messages_nl from "./i18n/nl.json";
 import messages_de from "./i18n/de.json";
@@ -49,6 +43,16 @@ export default class App extends Component {
     const webslides = new window.WebSlides({
       loop: false,
       changeOnClick: true
+    });
+
+    webslides.el.addEventListener('ws:slide-change', (event) => {
+      const classList = document?.getElementsByClassName("slide current")[0]?.classList ?? [];
+      const footerClassList = document.querySelector('footer img').classList;
+
+      if (classList.contains("bg-primary") && !footerClassList.contains("imageDark"))
+        footerClassList.toggle("imageDark");
+      else if (!classList.contains("bg-primary") && footerClassList.contains("imageDark"))
+        footerClassList.toggle("imageDark");
     });
   }
 
@@ -74,25 +78,19 @@ export default class App extends Component {
             <div id='webslides'>
 
               <Introduction />
-              <TableOfContents />
               <WhyCentralizedPlanning />
               {Reasons}
-              <NotConvinced />
-              {PlanningQuotes()}
               <CentralizedPlanningMatters />
               <WhatIsDimeScheduler />
               <ThePlanningSolution />
               <SeamlessIntegration />
               <FlexibleAndVersatile />
-              <Features />
+              <Properties />
               {Tour()}
               <MoreFeatures />
               <Industries />
-              <Properties />
               <Stats />
-              <UseDimeScheduler />
               <Testimonials />
-              <Reseller />
               <LearnMore />
               <Contact />
               <End />

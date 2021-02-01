@@ -17,7 +17,7 @@ export default function Contact() {
           <p className="text-intro">
             <FormattedMessage
               id="contact.subtitle"
-              defaultMessage="Schedule a free hour-long demonstration on our website or get in touch by e-mail or phone!" />
+              defaultMessage="Schedule a free demonstration on our website or get in touch by e-mail or phone!" />
           </p>
           <ul className="description">
             <li>

@@ -3,7 +3,7 @@ import reasons from '../data/reasons';
 function Reason({ title, content, bgImage, position }) {
     const headerClass = `content-${position} bg-trans-dark fadeInDown`;
     return (
-        <section>
+        <section className="bg-primary">
             <span className="background" style={{ backgroundImage: `url(${bgImage})` }}></span>
             <div className="wrap">
                 <div className={headerClass}>

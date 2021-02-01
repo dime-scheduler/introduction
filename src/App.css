@@ -9,3 +9,23 @@
     display: none;
   }
 }
+
+footer a {
+  color: white;
+}
+
+footer a::hover {
+  color:lightgray;
+}
+
+footer .image {
+  content:url("static/images/ds-light.png");
+}
+
+footer .imageDark {
+  content:url("static/images/ds-dark.png");
+}
+
+.grid > .column {
+  padding:0 2.4rem 2.4rem 2.4rem;
+}

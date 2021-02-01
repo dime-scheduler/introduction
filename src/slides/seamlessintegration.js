@@ -11,8 +11,8 @@ export default function Integration() {
                     <div className="column">
                         <figure><img className="alignleft" src={ds} alt="Dime.Scheduler" /></figure>
                         <br />
-                        <h2><FormattedMessage id="ds.property2.title" defaultMessage="Seamless integration with your technological landscape" /></h2>
-                        <p className="text-intro"><FormattedMessage id="ds.property2.content" defaultMessage="Plug Dime.Scheduler into systems such as Microsoft Dynamics 365 Business Central and get started planning your resources and projects in minutes." /></p>
+                        <h2><FormattedMessage id="ds.property2.title" defaultMessage="Plan everything in one place" /></h2>
+                        <p className="text-intro"><FormattedMessage id="ds.property2.content" defaultMessage="Place your entire business planning under one roof and schedule all your resources (technicians, machines, vehicles, sales people, consultants, etc.) and tasks (service orders, jobs, projects, production orders, sales orders, assembly orders, etc.) in one easy to use and fully integrated tool." /></p>
                     </div>
                     <div className="column">
                         <figure>

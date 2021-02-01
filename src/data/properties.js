@@ -2,7 +2,7 @@ import { FormattedMessage } from 'react-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink, faIndustry, faPlug, faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
-const iconStyle = { width: "0.75em" };
+const iconStyle = { width: "0.55em" };
 export default [
     {
         icon: <FontAwesomeIcon icon={faLink} style={iconStyle} />,
@@ -21,7 +21,7 @@ export default [
     },
     {
         icon: <FontAwesomeIcon icon={faPlug} style={iconStyle} />,
-        header: <FormattedMessage id="properties.property4.header" defaultMessage='Easy to integrate with your own solutions' />,
-        text: <FormattedMessage id="properties.property4.text" defaultMessage='Whitelabel Dime.Scheduler and bill it as your own product.' />
+        header: <FormattedMessage id="properties.property4.header" defaultMessage='Easy to integrate' />,
+        text: <FormattedMessage id="properties.property4.text" defaultMessage='Plug and play Dime.Scheduler with your own tools and create a seamless and integrated technological landscape.' />
     }
 ];
