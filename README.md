@@ -8,7 +8,7 @@
 
 <h1 align="center">Dime.Scheduler introduction slide deck </h1>
 
-Visit the slide deck on [slides.dimescheduler.com](https://slides.dimescheduler.com).
+Visit the slide deck on [intro.dimescheduler.com](https://intro.dimescheduler.com).
 
 ## About the project
 
@@ -39,7 +39,7 @@ Add a query string parameter named `lng` and use one of the supported languages:
 | Dutch    | nl   |
 | German   | de   |
 
-Because a query string is used, the URL can be bookmarked. For example: `https://slides.dimescheduler.com?lng=nl` will set the language to Dutch by default.
+Because a query string is used, the URL can be bookmarked. For example: `https://intro.dimescheduler.com?lng=nl` will set the language to Dutch by default.
 
 By default, English is used. No query string needs to be passed to use the default language.
 
@@ -82,7 +82,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Run `yarn deploy` to build and deploy the static website to the gh-pages branch.
 
-Go to the repository's settings and set `slides.dimescheduler.com` to the Custom domain field of the GitHub pages section.
+Go to the repository's settings and set `intro.dimescheduler.com` to the Custom domain field of the GitHub pages section.
 
 ## Learn More
 
