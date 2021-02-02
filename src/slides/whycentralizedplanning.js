@@ -10,7 +10,7 @@ export default function WhyCentralizedPlanning() {
         <figure>
           <img src={ds} alt="Dime.Scheduler" />
         </figure>
-        <h3><FormattedMessage id="whyplanning.title" defaultMessage="Why centralized planning is important" /></h3>
+        <h3><FormattedMessage id="whyplanning.title" defaultMessage="Why centralized planning matters" /></h3>
       </div>
     </section>
   )

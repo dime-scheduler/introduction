@@ -47,12 +47,14 @@ export default class App extends Component {
 
     webslides.el.addEventListener('ws:slide-change', (event) => {
       const classList = document?.getElementsByClassName("slide current")[0]?.classList ?? [];
-      const footerClassList = document.querySelector('footer img').classList;
-
+      const footerClassList = document.querySelector('footer img')?.classList ?? [];
+      
       if (classList.contains("bg-primary") && !footerClassList.contains("imageDark"))
         footerClassList.toggle("imageDark");
       else if (!classList.contains("bg-primary") && footerClassList.contains("imageDark"))
         footerClassList.toggle("imageDark");
+
+      document.querySelector('footer').style.visibility = event.detail.currentSlide === 1 ? "hidden" : "visible";
     });
   }
 

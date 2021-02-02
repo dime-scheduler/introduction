@@ -1,13 +1,19 @@
 import { FormattedMessage } from 'react-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import ds from "../static/images/ds-logo2.png";
 
 export default function End() {
     return (
         <section className="aligncenter">
             <div className="wrap size-50">
-                <h2 className="text-landing">Dime.Scheduler</h2>
-                <p className="text-intro">Stop puzzling. Start planning.</p>
+                <figure>
+                    <img src={ds} alt="Dime.Scheduler" style={{ maxHeight: 150 }} />
+                </figure>
+
+                <br />
+                <br />
+                <p className="text-symbols">Stop puzzling. Start planning.</p>
                 <p><FormattedMessage id="end.title" defaultMessage="Connect with us" /></p>
                 <nav className="aligncenter">
                     <ul>
