@@ -1,12 +1,16 @@
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   footer {
-    visibility: hidden;
-    display: none;
+    visibility: hidden !important;
+    display: none !important;
   }
 
   header {
     visibility: hidden;
     display: none;
+  }
+
+  .background.img {
+    background-image: url("static/images/bg.png") !important;
   }
 }
 
@@ -15,17 +19,17 @@ footer a {
 }
 
 footer a::hover {
-  color:lightgray;
+  color: lightgray;
 }
 
 footer .image {
-  content:url("static/images/ds-light.png");
+  content: url("static/images/ds-light.png");
 }
 
 footer .imageDark {
-  content:url("static/images/ds-dark.png");
+  content: url("static/images/ds-dark.png");
 }
 
 .grid > .column {
-  padding:0 2.4rem 2.4rem 2.4rem;
+  padding: 0 2.4rem 2.4rem 2.4rem;
 }

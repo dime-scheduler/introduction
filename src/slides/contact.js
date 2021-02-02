@@ -1,8 +1,6 @@
 import { FormattedMessage } from 'react-intl'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-
 import screenshot from "../static/images/ds-screenshot-4.png";
 
 export default function Contact() {
@@ -21,15 +19,16 @@ export default function Contact() {
           </p>
           <ul className="description">
             <li>
-              <FontAwesomeIcon icon={faGlobe} />
-              <a href="https://www.dimescheduler.com" target="_blank"> www.dimescheduler.com</a>
+
+              <a href="https://www.dimescheduler.com" target="_blank">
+                <FontAwesomeIcon icon={faGlobe} /> www.dimescheduler.com</a>
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} />
-              <a href="mailto:dime@dimenics.com" target="_blank"> dime@dimenics.com</a>
+              <a href="mailto:dime@dimenics.com" target="_blank">
+                <FontAwesomeIcon icon={faEnvelope} /> hello@dimescheduler.com</a>
             </li>
             <li>
-              <FontAwesomeIcon icon={faPhone} /> +32 (0)15 79 65 31
+              <a><FontAwesomeIcon icon={faPhone} /> +32 (0)15 79 65 31</a>
             </li>
           </ul>
         </div>

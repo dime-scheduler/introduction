@@ -8,7 +8,7 @@
 
 <h1 align="center">Dime.Scheduler introduction slide deck </h1>
 
-Visit the slide deck on [intro.dimescheduler.com](https://intro.dimescheduler.com).
+Visit the slide deck on [intro.dimescheduler.com](https://intro.dimescheduler.com). Best viewed on a desktop or laptop.
 
 ## About the project
 

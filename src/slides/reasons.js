@@ -4,7 +4,7 @@ function Reason({ title, content, bgImage, position }) {
     const headerClass = `content-${position} bg-trans-dark fadeInDown`;
     return (
         <section className="bg-primary">
-            <span className="background" style={{ backgroundImage: `url(${bgImage})` }}></span>
+            <span className="background img" style={{ backgroundImage: `url(${bgImage})` }}></span>
             <div className="wrap">
                 <div className={headerClass}>
                     <h2><strong>{title}</strong></h2>
