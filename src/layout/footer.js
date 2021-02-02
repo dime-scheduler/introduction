@@ -1,6 +1,7 @@
 
 export default function Footer() {
-    const slideNumber = parseInt(window.location.href.split("slide=")[1].substring(0, 2) ?? 0);
+    const splitUrl = window.location.href.split("slide=");
+    const slideNumber = splitUrl.length > 1 ? parseInt(splitUrl[1].substring(0, 2) ?? 0) : 1;
     const visibility = slideNumber === 1 ? "hidden" : "visible";
 
     return (

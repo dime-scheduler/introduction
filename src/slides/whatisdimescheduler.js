@@ -7,7 +7,7 @@ export default function WhatIsDimeScheduler() {
             <span className="background dark" style={{ backgroundImage: `url(${bgImage})` }}></span>
             <div className="wrap aligncenter">
                 <h1 style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
-                    <FormattedMessage id="ds.title" defaultMessage="Where does Dime.Scheduler fit in?" />
+                    <FormattedMessage id="ds.title" defaultMessage="How Dime.Scheduler can help" />
                 </h1>
             </div>
         </section>

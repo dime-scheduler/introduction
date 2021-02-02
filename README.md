@@ -21,9 +21,6 @@ The main goal of this project is to show what Dime.Scheduler is and what kind of
 ![](assets/slide3.png)
 ![](assets/slide4.png)
 ![](assets/slide5.png)
-![](assets/slide6.png)
-![](assets/slide7.png)
-![](assets/slide8.png)
 
 ## Languages
 
