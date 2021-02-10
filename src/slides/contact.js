@@ -24,7 +24,7 @@ export default function Contact() {
                 <FontAwesomeIcon icon={faGlobe} /> www.dimescheduler.com</a>
             </li>
             <li>
-              <a href="mailto:dime@dimenics.com" target="_blank">
+              <a href="mailto:hello@dimescheduler.com" target="_blank">
                 <FontAwesomeIcon icon={faEnvelope} /> hello@dimescheduler.com</a>
             </li>
             <li>
