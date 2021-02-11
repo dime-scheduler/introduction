@@ -1,6 +1,7 @@
 import './App.css';
 import { React, Component } from 'react';
 import { IntlProvider } from 'react-intl'
+import Config from './App.config';
 import ReactGA from 'react-ga';
 
 import Header from './layout/header';
@@ -31,14 +32,10 @@ import './static/css/svg-icons.css';
 import './static/js/webslides';
 import './static/js/svg-icons';
 
+ReactGA.initialize(Config.Google.GA_TRACKING_CODE);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 export default class App extends Component {
-  constructor() {
-    super();
-
-    ReactGA.initialize('G-J94SE220WB');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
-
   componentDidMount() {
     const webslides = new window.WebSlides({
       loop: false,
@@ -48,7 +45,7 @@ export default class App extends Component {
     webslides.el.addEventListener('ws:slide-change', (event) => {
       const classList = document?.getElementsByClassName("slide current")[0]?.classList ?? [];
       const footerClassList = document.querySelector('footer img')?.classList ?? [];
-      
+
       if (classList.contains("bg-primary") && !footerClassList.contains("imageDark"))
         footerClassList.toggle("imageDark");
       else if (!classList.contains("bg-primary") && footerClassList.contains("imageDark"))
@@ -68,7 +65,7 @@ export default class App extends Component {
     const search = window.location.search;
     const params = new URLSearchParams(search);
     const lngQueryStringParam = params.get('lng');
-    const language = (lngQueryStringParam && lngQueryStringParam.substr(0, 2) || "EN").toLowerCase();
+    const language = ((lngQueryStringParam && lngQueryStringParam.substr(0, 2)) ?? "EN").toLowerCase();
 
     return (
       <div>
