@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.ab810c70.chunk.css",
-    "main.js": "/static/js/main.564ecfba.chunk.js",
-    "main.js.map": "/static/js/main.564ecfba.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.345f2531.js",
-    "runtime-main.js.map": "/static/js/runtime-main.345f2531.js.map",
+    "main.js": "/static/js/main.18efc0fe.chunk.js",
+    "main.js.map": "/static/js/main.18efc0fe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7d608b25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7d608b25.js.map",
     "static/css/2.165ff965.chunk.css": "/static/css/2.165ff965.chunk.css",
-    "static/js/2.4b50b8b8.chunk.js": "/static/js/2.4b50b8b8.chunk.js",
-    "static/js/2.4b50b8b8.chunk.js.map": "/static/js/2.4b50b8b8.chunk.js.map",
-    "static/js/3.2f53f148.chunk.js": "/static/js/3.2f53f148.chunk.js",
-    "static/js/3.2f53f148.chunk.js.map": "/static/js/3.2f53f148.chunk.js.map",
+    "static/js/2.33a30918.chunk.js": "/static/js/2.33a30918.chunk.js",
+    "static/js/2.33a30918.chunk.js.map": "/static/js/2.33a30918.chunk.js.map",
+    "static/js/3.578535d5.chunk.js": "/static/js/3.578535d5.chunk.js",
+    "static/js/3.578535d5.chunk.js.map": "/static/js/3.578535d5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.165ff965.chunk.css.map": "/static/css/2.165ff965.chunk.css.map",
     "static/css/main.ab810c70.chunk.css.map": "/static/css/main.ab810c70.chunk.css.map",
-    "static/js/2.4b50b8b8.chunk.js.LICENSE.txt": "/static/js/2.4b50b8b8.chunk.js.LICENSE.txt",
-    "static/js/main.564ecfba.chunk.js.LICENSE.txt": "/static/js/main.564ecfba.chunk.js.LICENSE.txt",
+    "static/js/2.33a30918.chunk.js.LICENSE.txt": "/static/js/2.33a30918.chunk.js.LICENSE.txt",
+    "static/js/main.18efc0fe.chunk.js.LICENSE.txt": "/static/js/main.18efc0fe.chunk.js.LICENSE.txt",
     "static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif": "/static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif",
     "static/media/bg-centralizedplanningsolutionmatters2.c4f8362e.jfif": "/static/media/bg-centralizedplanningsolutionmatters2.c4f8362e.jfif",
     "static/media/App.css": "/static/media/bg.a0882fac.png",
@@ -23,6 +23,7 @@
     "static/media/ds-screenshot-10.15047752.png": "/static/media/ds-screenshot-10.15047752.png",
     "static/media/ds-screenshot-11.49b9539a.png": "/static/media/ds-screenshot-11.49b9539a.png",
     "static/media/ds-screenshot-12.63ca908d.png": "/static/media/ds-screenshot-12.63ca908d.png",
+    "static/media/ds-screenshot-2.5955f867.png": "/static/media/ds-screenshot-2.5955f867.png",
     "static/media/ds-screenshot-3.c4ddac5e.png": "/static/media/ds-screenshot-3.c4ddac5e.png",
     "static/media/ds-screenshot-4.e8e28814.png": "/static/media/ds-screenshot-4.e8e28814.png",
     "static/media/ds-screenshot-5.630f05f3.png": "/static/media/ds-screenshot-5.630f05f3.png",
@@ -43,10 +44,10 @@
     "static/media/workforce.131416d6.png": "/static/media/workforce.131416d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.345f2531.js",
+    "static/js/runtime-main.7d608b25.js",
     "static/css/2.165ff965.chunk.css",
-    "static/js/2.4b50b8b8.chunk.js",
+    "static/js/2.33a30918.chunk.js",
     "static/css/main.ab810c70.chunk.css",
-    "static/js/main.564ecfba.chunk.js"
+    "static/js/main.18efc0fe.chunk.js"
   ]
 }
