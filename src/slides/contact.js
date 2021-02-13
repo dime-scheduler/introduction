@@ -1,4 +1,5 @@
 import { FormattedMessage } from 'react-intl'
+import ImageCard from '../components/imageCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import screenshot from "../static/images/ds-screenshot-4.png";
@@ -8,7 +9,7 @@ export default function Contact() {
     <section>
       <div className="card-60">
         <figure>
-          <img src={screenshot} alt="Dime.Scheduler" />
+          <ImageCard image={screenshot} imageId="ds-contact"  alt="Dime.Scheduler" />
         </figure>
         <div className="flex-content">
           <h2><FormattedMessage id="contact.title" defaultMessage="Want to get started with Dime.Scheduler?" /></h2>
@@ -19,7 +20,6 @@ export default function Contact() {
           </p>
           <ul className="description">
             <li>
-
               <a href="https://www.dimescheduler.com" target="_blank">
                 <FontAwesomeIcon icon={faGlobe} /> www.dimescheduler.com</a>
             </li>
@@ -28,7 +28,7 @@ export default function Contact() {
                 <FontAwesomeIcon icon={faEnvelope} /> hello@dimescheduler.com</a>
             </li>
             <li>
-              <a><FontAwesomeIcon icon={faPhone} /> +32 (0)15 79 65 31</a>
+              <a href="#"><FontAwesomeIcon icon={faPhone} /> +32 (0)15 79 65 31</a>
             </li>
           </ul>
         </div>

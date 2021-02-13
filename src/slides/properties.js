@@ -1,4 +1,6 @@
 import { FormattedMessage } from 'react-intl';
+import ImageCard from '../components/imageCard';
+
 import bgImage from "../static/images/ds-screenshot-6.png";
 import properties from '../data/properties';
 
@@ -24,7 +26,7 @@ export default function Properties() {
                         </ul>
                     </div>
                     <figure>
-                        <img src={bgImage} alt="Dime.Scheduler" />
+                        <ImageCard image={bgImage} imageId="ds-props" className="alignleft" alt="Dime.Scheduler" />
                     </figure>
                 </div>
             </div>

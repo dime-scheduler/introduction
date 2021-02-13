@@ -1,4 +1,5 @@
 import { FormattedMessage } from 'react-intl';
+import ImageCard from '../components/imageCard';
 
 import tour from "../static/images/tour.jpg";
 import highlights from '../data/tour';
@@ -13,7 +14,7 @@ function Highlight({ title, intro, body, img, alignContentLeft = true }) {
 
     const image = <div className="column">
         <figure>
-            <img src={img} />
+            <ImageCard image={img} imageId={"ds-tour"} className="alignleft" alt="Dime.Scheduler" />
         </figure>
     </div>
 

@@ -1,5 +1,5 @@
 import { FormattedMessage } from 'react-intl'
-
+import ImageCard from '../components/imageCard';
 import bgImage2 from "../static/images/ds-screenshot-5.png";
 import ds from "../static/images/ds-light.png";
 
@@ -10,7 +10,7 @@ export default function Integration() {
                 <div className="grid vertical-align">
                     <div className="column">
                         <figure>
-                            <img src={bgImage2} alt="Dime.Scheduler" />
+                            <ImageCard image={bgImage2} imageId="ds-screenshot" className="alignleft" alt="Dime.Scheduler" />
                         </figure>
                     </div>
 

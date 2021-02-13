@@ -24,6 +24,7 @@ import CentralizedPlanningMatters from './slides/centralized';
 import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
 import Tour from './slides/tour';
+import DimeSchedulerScreenshot from './slides/ds';
 
 import messages_nl from "./i18n/nl.json";
 import messages_de from "./i18n/de.json";
@@ -77,6 +78,7 @@ export default class App extends Component {
             <div id='webslides'>
 
               <Introduction />
+              <DimeSchedulerScreenshot />
               <WhyCentralizedPlanning />
               {Reasons}
               <CentralizedPlanningMatters />
