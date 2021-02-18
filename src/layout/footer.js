@@ -6,7 +6,7 @@ export default function Footer() {
 
     return (
         <footer style={{ visibility: visibility }}>
-            <span className="alignleft"><a href="#slide=29" style={{ color: '#abc' }}>Contact</a></span>
+            <span className="alignleft"><a href="#slide=30" style={{ color: '#abc' }}>Contact</a></span>
             <span className="alignright">
                 <a href="http://dimescheduler.com" title="Dime.Scheduler">
                     <img className="image" alt="Dime.Scheduler" />
