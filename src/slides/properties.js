@@ -1,4 +1,3 @@
-import { FormattedMessage } from 'react-intl';
 import ImageCard from '../components/imageCard';
 
 import bgImage from "../static/images/ds-screenshot-6.png";

@@ -31,11 +31,11 @@ export default function Header() {
                         NL
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a rel="#" onClick={handleGermanOnClick} title="Switch to German">
                         DE
                     </a>
-                </li>
+                </li> */}
             </ul>
         </nav>
     </header>)
