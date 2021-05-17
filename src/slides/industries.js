@@ -2,10 +2,10 @@ import { FormattedMessage } from 'react-intl';
 import industries from '../data/industries';
 
 export default function Industries() {
-    const industriesList = industries.map(({ name, faIcon }) => {
+    const industriesList = industries.map(({ name, icon }) => {
         return (
             <li>
-                {faIcon}
+                {icon}
                 {name}
             </li>
         );
