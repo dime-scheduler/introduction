@@ -11,7 +11,7 @@ import exchange from "../static/images/ds-screenshot-12.png";
 export default [
     {
         title: <FormattedMessage id="tour.highlight1.title" defaultMessage="Powerful and real-time planning board" />,
-        intro: <FormattedMessage id="tour.highlight1.subtitle" defaultMessage="Pan all of your tasks in a single view" />,
+        intro: <FormattedMessage id="tour.highlight1.subtitle" defaultMessage="Plan all of your tasks in a single view" />,
         body: <FormattedMessage id="tour.highlight1.text" defaultMessage={`
         Get instant updates from your co-workers and from changes in back office systems such as Microsoft Dynamics 365 Business Central and Exchange, without ever leaving Dime.Scheduler. 
         Any changes you make are instantly processed by the connected back office systems.`} />,
