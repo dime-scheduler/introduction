@@ -1,7 +1,7 @@
 import { FormattedMessage } from 'react-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import ds from "../static/images/ds-logo2.png";
+import ds from "../static/images/ds-purple.png";
 
 export default function End() {
     return (
