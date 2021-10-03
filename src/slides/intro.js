@@ -4,10 +4,10 @@ import ds from "../static/images/ds.svg";
 export default function Introduction() {
     return (
         <section className="bg-primary aligncenter">
-            <span className="background auto" style={{ backgroundImage: `url(${bgImage})` }}></span>
+            <span className="background auto" style={{ backgroundImage: `url(${bgImage})`, }}></span>
             <div className="wrap">
                 <figure>
-                    <img src={ds} alt="Dime.Scheduler" style={{ maxHeight: 200 }} />
+                    <img src={ds} alt="Dime.Scheduler" className="logo" style={{ maxHeight: 200 }} />
                 </figure>
 
                 <br />

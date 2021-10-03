@@ -1,8 +1,12 @@
 import { FormattedMessage } from 'react-intl';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faUsers, faUserFriends, faHandshake } from '@fortawesome/free-solid-svg-icons'
+import resllers from '../static/images/stats/resellers.svg'
+import countries from '../static/images/stats/countries.svg'
+import resources from '../static/images/stats/resources.svg'
+import planners from '../static/images/stats/planners.svg'
 
 export default function Stats() {
+    var imgStyle = { maxHeight: "200px", paddingBottom: "10px" };
+
     return (
         <section className="">
             <div className="wrap aligncenter">
@@ -14,20 +18,20 @@ export default function Stats() {
             </div>
             <ul className="flexblock metrics">
                 <li>
-                    <FontAwesomeIcon icon={faHandshake} />
-                    <FormattedMessage id="stats.metric1" defaultMessage="More than 60 resellers" />
+                    <img src={resllers} alt="More than 90 resellers" style={imgStyle} />
+                    <FormattedMessage id="stats.metric1" defaultMessage="+ 90 resellers" />
                 </li>
                 <li>
-                    <FontAwesomeIcon icon={faGlobe} />
+                    <img src={countries} alt="Active in more than 20 countries" style={imgStyle} />
                     <FormattedMessage id="stats.metric2" defaultMessage="Active in more than 20 countries" />
                 </li>
                 <li>
-                    <FontAwesomeIcon icon={faUsers} />
-                    <FormattedMessage id="stats.metric3" defaultMessage="More than 20.000 planned resources" />
+                    <img src={resources} alt="More than 20.000 planned resources" style={{ ...imgStyle, height: "275px" }} />
+                    <FormattedMessage id="stats.metric3" defaultMessage="+ 20.000 planned resources" />
                 </li>
                 <li>
-                    <FontAwesomeIcon icon={faUserFriends} />
-                    <FormattedMessage id="stats.metric4" defaultMessage="More than 500 planners" />
+                    <img src={planners} alt="Over 500 FTE planners" style={imgStyle} />
+                    <FormattedMessage id="stats.metric4" defaultMessage="+ 500 FTE planners" />
                 </li>
             </ul>
         </section >

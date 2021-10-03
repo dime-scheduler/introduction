@@ -1,26 +1,18 @@
 <p align="center">
-    <img src="assets/ds.png?raw=true" alt="DS Logo" height="250">
+    <img src="assets/ds.svg" alt="DS Logo" height="50">
 </p>
 
 <p align="center">
     <img src="https://dev.azure.com/dimenicsbe/Dime/_apis/build/status/dimenics.ds-introduction?branchName=master" /> <img src="https://vsrm.dev.azure.com/dimenicsbe/_apis/public/Release/badge/3faeaf76-379c-4e0d-9078-1d71ee186ba5/2/2" /> <img src="https://img.shields.io/badge/License-MIT-blue.svg"/> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
 </p>
 
-<h1 align="center">Dime.Scheduler introduction slide deck </h1>
+<h1 align="center">Introduction to Dime.Scheduler slide deck </h1>
 
 Visit the slide deck on [intro.dimescheduler.com](https://intro.dimescheduler.com). Best viewed on a desktop or laptop.
 
 ## About the project
 
 The main goal of this project is to show what Dime.Scheduler is and what kind of business challenges it aims to tackle. It provides the necessary content for potential customers and resellers to learn what it is meant to do and how it does it.
-
-## Screenshots
-
-![](assets/slide1.png)
-![](assets/slide2.png)
-![](assets/slide3.png)
-![](assets/slide4.png)
-![](assets/slide5.png)
 
 ## Languages
 
@@ -85,3 +77,12 @@ Go to the repository's settings and set `intro.dimescheduler.com` to the Custom 
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Screenshots
+
+![](assets/slide1.png)
+![](assets/slide2.png)
+![](assets/slide3.png)
+![](assets/slide4.png)
+![](assets/slide5.png)
