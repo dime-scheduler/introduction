@@ -1,56 +1,64 @@
 import { FormattedMessage } from 'react-intl';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink, faProjectDiagram, faObjectGroup, faLanguage, faCalendarAlt, faEdit, faBell, faDatabase, faCloud, faLock, faCalendar, faExchangeAlt } from '@fortawesome/free-solid-svg-icons'
-
-const style = { fontSize: '0.7em' };
+import customFieldsImg from '../static/images/features/customfields.svg';
+import multilanguageImg from '../static/images/features/multilanguage.svg';
+import alertsImg from '../static/images/features/alerts.svg';
+import tasksImg from '../static/images/features/tasks.svg';
+import cloudImg from '../static/images/features/cloud.svg';
+import securityImg from '../static/images/features/security.svg';
+import integrateImg from '../static/images/features/integrate.svg';
+import filterImg from '../static/images/features/filter.svg';
+import calendarImg from '../static/images/features/calendars.svg';
+import connectedImg from '../static/images/features/connected.svg';
+import planningBoardsImg from '../static/images/features/planningboards.svg';
+import realtimeImg from '../static/images/features/realtime.svg';
 
 export default [
     {
         name: <FormattedMessage id="morefeatures.feature1" defaultMessage='Real-time and bi-directional message flow' />,
-        icon: <FontAwesomeIcon icon={faExchangeAlt} style={style} />
+        icon: <img src={realtimeImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature2" defaultMessage='Tasks and resources can be anything' />,
-        icon: <FontAwesomeIcon icon={faProjectDiagram} style={style} />
+        icon: <img src={tasksImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature3" defaultMessage='Connect to multiple systems' />,
-        icon: <FontAwesomeIcon icon={faDatabase} style={style} />
+        icon: <img src={connectedImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature4" defaultMessage='Multi-language' />,
-        icon: <FontAwesomeIcon icon={faLanguage} style={style} />
+        icon: <img src={multilanguageImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature5" defaultMessage='Custom fields' />,
-        icon: <FontAwesomeIcon icon={faEdit} style={style} />
+        icon: <img src={customFieldsImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature6" defaultMessage='Multiple planning boards' />,
-        icon: <FontAwesomeIcon icon={faCalendar} style={style} />
+        icon: <img src={planningBoardsImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature7" defaultMessage='Calendars' />,
-        icon: <FontAwesomeIcon icon={faCalendarAlt} style={style} />
+        icon: <img src={calendarImg } height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature8" defaultMessage='Grouping, sorting, filtering' />,
-        icon: <FontAwesomeIcon icon={faObjectGroup} style={style} />
+        icon: <img src={filterImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature9" defaultMessage='Host on-premise or in the cloud' />,
-        icon: <FontAwesomeIcon icon={faCloud} style={style} />
+        icon: <img src={cloudImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature10" defaultMessage='Alerts and notifications based on business rules in back-end​' />,
-        icon: <FontAwesomeIcon icon={faBell} style={style} />
+        icon: <img src={alertsImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature11" defaultMessage='Data-driven setup and security' />,
-        icon: <FontAwesomeIcon icon={faLock} style={style} />
+        icon: <img src={securityImg} height={35} />
     },
     {
         name: <FormattedMessage id="morefeatures.feature12" defaultMessage='Easy integration with Fast Track for Business Central' />,
-        icon: <FontAwesomeIcon icon={faLink} style={style} />
+        icon: <img src={integrateImg} height={35} />
     }
 ];
