@@ -4,8 +4,8 @@ import features from '../data/morefeatures';
 export default function MoreFeatures() {
     const featuresList = features.map(({ name, icon }) => {
         return (
-            <li style={{ marginBottom: '1em' }}>
-                <div><h3><span>{icon}</span> {name}</h3></div>
+            <li style={{ marginBottom: '0.5em' }}>
+                <div><h5><span>{icon}</span> {name}</h5></div>
             </li>
         );
     });
