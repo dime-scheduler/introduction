@@ -36,7 +36,7 @@ export default [
     },
     {
         name: <FormattedMessage id="morefeatures.feature5" defaultMessage='Custom fields' />,
-        icon: <img src={customFieldsImg} style={style} alt="Dime.Scheduler Feature" />
+        icon: <img src={customFieldsImg} style={{ height: "50px", width: "50px" }} alt="Dime.Scheduler Feature" />
     },
     {
         name: <FormattedMessage id="morefeatures.feature6" defaultMessage='Multiple planning boards' />,
