@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.112b9e24.chunk.css",
-    "main.js": "/static/js/main.f2cdd09a.chunk.js",
-    "main.js.map": "/static/js/main.f2cdd09a.chunk.js.map",
+    "main.js": "/static/js/main.5ad87f12.chunk.js",
+    "main.js.map": "/static/js/main.5ad87f12.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7d608b25.js",
     "runtime-main.js.map": "/static/js/runtime-main.7d608b25.js.map",
     "static/css/2.165ff965.chunk.css": "/static/css/2.165ff965.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.165ff965.chunk.css.map": "/static/css/2.165ff965.chunk.css.map",
     "static/css/main.112b9e24.chunk.css.map": "/static/css/main.112b9e24.chunk.css.map",
     "static/js/2.50e6097b.chunk.js.LICENSE.txt": "/static/js/2.50e6097b.chunk.js.LICENSE.txt",
-    "static/js/main.f2cdd09a.chunk.js.LICENSE.txt": "/static/js/main.f2cdd09a.chunk.js.LICENSE.txt",
+    "static/js/main.5ad87f12.chunk.js.LICENSE.txt": "/static/js/main.5ad87f12.chunk.js.LICENSE.txt",
     "static/media/agriculture.cc5d14b5.svg": "/static/media/agriculture.cc5d14b5.svg",
     "static/media/alerts.801f01fa.svg": "/static/media/alerts.801f01fa.svg",
     "static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif": "/static/media/bg-centralizedplanningsolutionmatters.747e4e81.jfif",
@@ -49,18 +49,18 @@
     "static/media/hello.46317a49.jpg": "/static/media/hello.46317a49.jpg",
     "static/media/holiday.4f036f1c.jpg": "/static/media/holiday.4f036f1c.jpg",
     "static/media/industry.bb9a8a28.svg": "/static/media/industry.bb9a8a28.svg",
-    "static/media/integrate.01852f7b.svg": "/static/media/integrate.01852f7b.svg",
+    "static/media/integrate.eab24eae.svg": "/static/media/integrate.eab24eae.svg",
     "static/media/integrated.a7f7c04d.svg": "/static/media/integrated.a7f7c04d.svg",
     "static/media/manufacturing.bb9a8a28.svg": "/static/media/manufacturing.bb9a8a28.svg",
     "static/media/more.0ea8a04a.svg": "/static/media/more.0ea8a04a.svg",
     "static/media/multilanguage.0dd2b399.svg": "/static/media/multilanguage.0dd2b399.svg",
     "static/media/planners.fae64c33.svg": "/static/media/planners.fae64c33.svg",
     "static/media/planning.58252f4a.jpg": "/static/media/planning.58252f4a.jpg",
-    "static/media/planningboards.12839176.svg": "/static/media/planningboards.12839176.svg",
+    "static/media/planningboards.2467e5cf.svg": "/static/media/planningboards.2467e5cf.svg",
     "static/media/plug-and-play.6adda0b6.svg": "/static/media/plug-and-play.6adda0b6.svg",
     "static/media/professional.bf9b035b.jpg": "/static/media/professional.bf9b035b.jpg",
     "static/media/professionalservices.d1400823.svg": "/static/media/professionalservices.d1400823.svg",
-    "static/media/realtime.272a7b83.svg": "/static/media/realtime.272a7b83.svg",
+    "static/media/realtime.3ebdfacf.svg": "/static/media/realtime.3ebdfacf.svg",
     "static/media/rental.9687c342.svg": "/static/media/rental.9687c342.svg",
     "static/media/resellers.ba6545c9.svg": "/static/media/resellers.ba6545c9.svg",
     "static/media/resources.f5edd1f8.svg": "/static/media/resources.f5edd1f8.svg",
@@ -81,6 +81,6 @@
     "static/css/2.165ff965.chunk.css",
     "static/js/2.50e6097b.chunk.js",
     "static/css/main.112b9e24.chunk.css",
-    "static/js/main.f2cdd09a.chunk.js"
+    "static/js/main.5ad87f12.chunk.js"
   ]
 }
