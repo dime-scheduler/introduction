@@ -17,10 +17,10 @@ export default function End() {
                 <p><FormattedMessage id="end.title" defaultMessage="Connect with us" /></p>
                 <nav className="aligncenter">
                     <ul>
-                        <li><a href="https://be.linkedin.com/company/dimenics" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></li>
-                        <li><a href="http://www.facebook.com/pages/Dime/352837688099832" target="_blank"><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
-                        <li><a href="https://twitter.com/Dimenics" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" /></a></li>
-                        <li><a href="https://www.youtube.com/user/DimenicsTV" target="_blank"><FontAwesomeIcon icon={faYoutube} size="2x" /></a></li>
+                        <li><a href="https://www.linkedin.com/company/dimesoftware" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></li>
+                        <li><a href="https://www.facebook.com/dimesoftware" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
+                        <li><a href="https://twitter.com/dimesoftware" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="2x" /></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCYD4LGox7SJLL7r8gmjulNA" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} size="2x" /></a></li>
                     </ul>
                 </nav>
             </div>

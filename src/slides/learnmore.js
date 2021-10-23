@@ -20,7 +20,7 @@ export default function LearnMore() {
                             id="learnmore.links"
                             defaultMessage="More videos are available on {youtube} or check out the docs at {docs}."
                             values={{
-                                youtube: <a href="https://www.youtube.com/user/DimenicsTV" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>,
+                                youtube: <a href="https://www.youtube.com/channel/UCYD4LGox7SJLL7r8gmjulNA" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>,
                                 docs: <a href="https://docs.dimescheduler.com" target="_blank"><FontAwesomeIcon icon={faBookOpen} /></a>
                             }} />
                     </p>
