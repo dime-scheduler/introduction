@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <img src="https://dev.azure.com/dimenicsbe/Dime/_apis/build/status/dimenics.ds-introduction?branchName=master" /> <img src="https://vsrm.dev.azure.com/dimenicsbe/_apis/public/Release/badge/3faeaf76-379c-4e0d-9078-1d71ee186ba5/2/2" /> <img src="https://img.shields.io/badge/License-MIT-blue.svg"/> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+    <img src="https://dev.azure.com/dimesoftware/Dime/_apis/build/status/dimenics.ds-introduction?branchName=master" /> <img src="https://vsrm.dev.azure.com/dimesoftware/_apis/public/Release/badge/3faeaf76-379c-4e0d-9078-1d71ee186ba5/2/2" /> <img src="https://img.shields.io/badge/License-MIT-blue.svg"/> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
 </p>
 
 <h1 align="center">Introduction to Dime.Scheduler slide deck </h1>
