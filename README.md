@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/ds.svg" alt="DS Logo" height="50">
+    <img src="assets/ds.svg" alt="DS Logo" height="100">
 </p>
 
 <p align="center">
@@ -16,9 +16,7 @@ The main goal of this project is to show what Dime.Scheduler is and what kind of
 
 ## Languages
 
-There are two ways to change languages. The first is by using the navigation menu in the header:
-
-<img src="./assets/switchlanguage.png" />
+There are two ways to change languages. The first is by using the navigation menu in the header.
 
 The other method is by using a query string parameter.
 Add a query string parameter named `lng` and use one of the supported languages:
@@ -77,12 +75,3 @@ Go to the repository's settings and set `intro.dimescheduler.com` to the Custom 
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-## Screenshots
-
-![](assets/slide1.png)
-![](assets/slide2.png)
-![](assets/slide3.png)
-![](assets/slide4.png)
-![](assets/slide5.png)
