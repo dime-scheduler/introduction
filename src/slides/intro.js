@@ -1,5 +1,5 @@
 import bgImage from "../static/images/bg.png";
-import ds from "../static/images/ds.svg";
+import ds from "../static/images/logo_light.svg";
 
 export default function Introduction() {
     return (
