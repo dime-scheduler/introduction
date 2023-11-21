@@ -57,22 +57,11 @@ export default class App extends Component {
   }
 
   render() {
-
-    const messages = {
-      'nl': messages_nl,
-      'de': messages_de
-    };
-
-    const search = window.location.search;
-    const params = new URLSearchParams(search);
-    const lngQueryStringParam = params.get('lng');
-    const language = ((lngQueryStringParam && lngQueryStringParam.substr(0, 2)) ?? "EN").toLowerCase();
-
     return (
       <div>
         <Header />
 
-        <IntlProvider messages={messages[language]} locale={language} defaultLocale="en">
+        <IntlProvider  defaultLocale="en">
 
           <main role="main">
             <div id='webslides'>
