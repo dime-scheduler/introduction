@@ -25,9 +25,6 @@ import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
 import Tour from './slides/tour';
 import DimeSchedulerScreenshot from './slides/ds';
-
-import messages_nl from "./i18n/nl.json";
-import messages_de from "./i18n/de.json";
 import './static/css/webslides.css';
 import './static/css/svg-icons.css';
 import './static/js/webslides';

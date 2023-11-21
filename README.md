@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/ds.svg" alt="DS Logo" height="100">
+    <img src="assets/logo.png" alt="DS Logo" height="100">
 </p>
 
 <p align="center">
@@ -13,22 +13,6 @@ Visit the slide deck on [intro.dimescheduler.com](https://intro.dimescheduler.co
 ## About the project
 
 The main goal of this project is to show what Dime.Scheduler is and what kind of business challenges it aims to tackle. It provides the necessary content for potential customers and resellers to learn what it is meant to do and how it does it.
-
-## Languages
-
-There are two ways to change languages. The first is by using the navigation menu in the header.
-
-The other method is by using a query string parameter.
-Add a query string parameter named `lng` and use one of the supported languages:
-
-| Language | Code |
-| -------- | ---- |
-| Dutch    | nl   |
-| German   | de   |
-
-Because a query string is used, the URL can be bookmarked. For example: `https://intro.dimescheduler.com?lng=nl` will set the language to Dutch by default.
-
-By default, English is used. No query string needs to be passed to use the default language.
 
 ## Scripts
 
