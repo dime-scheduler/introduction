@@ -1744,7 +1744,7 @@ section,
   section,
   .slide {
     padding-bottom: 12rem;
-    padding-top: 12rem;
+    /* padding-top: 12rem; */
   }
 }
 
@@ -1897,6 +1897,8 @@ form[class*="bg-"] {
 .background.auto {
   background-position: center;
   background-size: auto;
+  background: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23897ef9' fill-opacity='0.09' fill-rule='evenodd'/%3E%3C/svg%3E") #5246ce !important;
+
   /*fullscreen video
     <video class="background-video">
   */
@@ -3767,7 +3769,7 @@ a,
 .bg-white a,
 .bg-light a,
 .bg-gradient-white a {
-  color: #6e62b5;
+  color: #5246ce;
 }
 
 a:hover {
@@ -3845,7 +3847,7 @@ Slides - Backgrounds <section class="bg-primary">
 ================================================== */
 /*3 Corp Colors*/
 .bg-primary {
-  background-color: #6e62b5;
+  background-color: #5246ce;
 }
 
 .bg-secondary {
@@ -3881,7 +3883,7 @@ Slides - Backgrounds <section class="bg-primary">
 }
 
 .bg-purple {
-  background-color: #6e62b5;
+  background-color: #5246ce;
 }
 
 .bg-red {
@@ -3962,7 +3964,7 @@ Slides - Backgrounds <section class="bg-primary">
 
 /*Horizontal Gradient*/
 .bg-gradient-h {
-  background: linear-gradient(134deg, #46276d 0, #6e62b5 100%);
+  background: linear-gradient(134deg, #46276d 0, #5246ce 100%);
 }
 
 /*Vertical Gradient*/
@@ -3971,15 +3973,15 @@ Slides - Backgrounds <section class="bg-primary">
     linear,
     left bottom,
     left top,
-    from(#6e62b5),
+    from(#5246ce),
     to(#46276d)
   );
-  background: linear-gradient(to top, #6e62b5 0%, #46276d 100%);
+  background: linear-gradient(to top, #5246ce 0%, #46276d 100%);
 }
 
 /*Radial Gradient*/
 .bg-gradient-r {
-  background: radial-gradient(ellipse at center, #6e62b5 0%, #46276d 100%);
+  background: radial-gradient(ellipse at center, #5246ce 0%, #46276d 100%);
 }
 
 /*White Gradient (vertical)*/
@@ -4586,7 +4588,7 @@ input[type="submit"],
 .button:hover,
 button[type="submit"]:hover,
 input[type="submit"]:hover {
-  border: 1px solid #6e62b5;
+  border: 1px solid #5246ce;
 }
 
 button[type="submit"],
@@ -4595,7 +4597,7 @@ input[type="submit"],
 .button:hover,
 button[type="submit"]:hover,
 input[type="submit"]:hover {
-  background-color: #6e62b5;
+  background-color: #5246ce;
   color: #fff;
   text-shadow: 0 1px 0 #123;
 }
@@ -4630,7 +4632,7 @@ input[type="submit"]:active {
 
 .bg-white a.button.ghost,
 .bg-gradient-white a.button.ghost {
-  border: 1px solid #6e62b5;
+  border: 1px solid #5246ce;
   color: #333;
 }
 
@@ -4643,7 +4645,7 @@ button:disabled:hover {
 
 fieldset {
   background-color: rgba(0, 20, 80, 0.2);
-  border: 1px solid #6e62b5;
+  border: 1px solid #5246ce;
 }
 
 legend {

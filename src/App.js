@@ -25,9 +25,6 @@ import Testimonials from './slides/testimonials';
 import Reasons from './slides/reasons';
 import Tour from './slides/tour';
 import DimeSchedulerScreenshot from './slides/ds';
-
-import messages_nl from "./i18n/nl.json";
-import messages_de from "./i18n/de.json";
 import './static/css/webslides.css';
 import './static/css/svg-icons.css';
 import './static/js/webslides';
@@ -57,22 +54,11 @@ export default class App extends Component {
   }
 
   render() {
-
-    const messages = {
-      'nl': messages_nl,
-      'de': messages_de
-    };
-
-    const search = window.location.search;
-    const params = new URLSearchParams(search);
-    const lngQueryStringParam = params.get('lng');
-    const language = ((lngQueryStringParam && lngQueryStringParam.substr(0, 2)) ?? "EN").toLowerCase();
-
     return (
       <div>
         <Header />
 
-        <IntlProvider messages={messages[language]} locale={language} defaultLocale="en">
+        <IntlProvider  defaultLocale="en">
 
           <main role="main">
             <div id='webslides'>

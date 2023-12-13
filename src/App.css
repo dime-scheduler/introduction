@@ -14,6 +14,7 @@
   }
 }
 
+
 footer a {
   color: white;
 }
@@ -23,19 +24,13 @@ footer a::hover {
 }
 
 footer .image {
-  content: url("static/images/ds-light.png");
+  content: url("static/images/logo_light.svg");
 }
 
 footer .imageDark {
-  content: url("static/images/ds-dark.png");
+  content: url("static/images/ds.svg");
 }
 
-.grid > .column {
+.grid>.column {
   padding: 0 2.4rem 2.4rem 2.4rem;
-}
-
-img.logo {
-  fill: white;
-  -webkit-filter: brightness(0) invert(1); /* Safari/Chrome */
-  filter: brightness(0) invert(1);
 }

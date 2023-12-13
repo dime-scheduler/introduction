@@ -18,8 +18,8 @@ export default function Stats() {
             </div>
             <ul className="flexblock metrics">
                 <li>
-                    <img src={resllers} alt="More than 90 resellers" style={imgStyle} />
-                    <FormattedMessage id="stats.metric1" defaultMessage="+ 90 resellers" />
+                    <img src={resllers} alt="More than 100 resellers" style={imgStyle} />
+                    <FormattedMessage id="stats.metric1" defaultMessage="+ 100 resellers" />
                 </li>
                 <li>
                     <img src={countries} alt="Active in more than 20 countries" style={imgStyle} />
