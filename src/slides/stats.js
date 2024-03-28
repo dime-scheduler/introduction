@@ -18,20 +18,20 @@ export default function Stats() {
             </div>
             <ul className="flexblock metrics">
                 <li>
-                    <img src={resllers} alt="More than 100 resellers" style={imgStyle} />
-                    <FormattedMessage id="stats.metric1" defaultMessage="+ 100 resellers" />
+                    <img src={resllers} alt="More than 150 resellers" style={imgStyle} />
+                    <FormattedMessage id="stats.metric1" defaultMessage="+ 150 resellers" />
                 </li>
                 <li>
-                    <img src={countries} alt="Active in more than 20 countries" style={imgStyle} />
-                    <FormattedMessage id="stats.metric2" defaultMessage="Active in more than 20 countries" />
+                    <img src={countries} alt="Active in more than 30 countries" style={imgStyle} />
+                    <FormattedMessage id="stats.metric2" defaultMessage="Active in more than 30 countries" />
                 </li>
                 <li>
                     <img src={resources} alt="More than 20.000 planned resources" style={{ ...imgStyle, height: "275px" }} />
-                    <FormattedMessage id="stats.metric3" defaultMessage="+ 20.000 planned resources" />
+                    <FormattedMessage id="stats.metric3" defaultMessage="+ 30.000 planned resources" />
                 </li>
                 <li>
-                    <img src={planners} alt="Over 500 FTE planners" style={imgStyle} />
-                    <FormattedMessage id="stats.metric4" defaultMessage="+ 500 FTE planners" />
+                    <img src={planners} alt="Over 1000 FTE planners" style={imgStyle} />
+                    <FormattedMessage id="stats.metric4" defaultMessage="+ 1000 FTE planners" />
                 </li>
             </ul>
         </section >
